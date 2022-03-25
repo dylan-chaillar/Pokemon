@@ -1,0 +1,899 @@
+;abilities;base_experience;forms;height;name;order;past_types;species;types;weight;ability_id;type_id;hp;attack;defense;special-attack;special-defense;speed
+1;overgrow, chlorophyll;64;bulbasaur;7;bulbasaur;1;;bulbasaur;grass, poison;69;3;591;45;49;49;65;65;45
+2;overgrow, chlorophyll;142;ivysaur;10;ivysaur;2;;ivysaur;grass, poison;130;3;591;60;62;63;80;80;60
+3;overgrow, chlorophyll;263;venusaur;20;venusaur;3;;venusaur;grass, poison;1000;3;591;80;82;83;100;100;80
+4;blaze, solar-power;62;charmander;6;charmander;5;;charmander;fire;85;6;815;39;52;43;60;50;65
+5;blaze, solar-power;142;charmeleon;11;charmeleon;6;;charmeleon;fire;190;6;815;58;64;58;80;65;80
+6;blaze, solar-power;267;charizard;17;charizard;7;;charizard;fire, flying;905;6;741;78;84;78;109;85;100
+7;torrent, rain-dish;63;squirtle;5;squirtle;10;;squirtle;water;90;9;847;44;48;65;50;64;43
+8;torrent, rain-dish;142;wartortle;10;wartortle;11;;wartortle;water;225;9;847;59;63;80;65;80;58
+9;torrent, rain-dish;265;blastoise;16;blastoise;12;;blastoise;water;855;9;847;79;83;100;85;105;78
+10;shield-dust, run-away;39;caterpie;3;caterpie;14;;caterpie;bug;29;265;824;45;30;35;20;20;45
+11;shed-skin;72;metapod;7;metapod;15;;metapod;bug;99;268;824;50;20;55;25;25;30
+12;compound-eyes, tinted-lens;198;butterfree;11;butterfree;16;;butterfree;bug, flying;320;12;666;60;45;50;90;80;70
+13;shield-dust, run-away;39;weedle;3;weedle;17;;weedle;bug, poison;32;265;545;40;35;30;20;20;50
+14;shed-skin;72;kakuna;6;kakuna;18;;kakuna;bug, poison;100;268;545;45;25;50;25;25;35
+15;swarm, sniper;178;beedrill;10;beedrill;19;;beedrill;bug, poison;295;15;545;65;90;40;45;80;75
+16;keen-eye, tangled-feet, big-pecks;50;pidgey;3;pidgey;21;;pidgey;normal, flying;18;441;733;40;45;40;35;35;56
+17;keen-eye, tangled-feet, big-pecks;122;pidgeotto;11;pidgeotto;22;;pidgeotto;normal, flying;300;441;733;63;60;55;50;50;71
+18;keen-eye, tangled-feet, big-pecks;216;pidgeot;15;pidgeot;23;;pidgeot;normal, flying;395;441;733;83;80;75;70;70;101
+19;run-away, guts, hustle;51;rattata;3;rattata;25;;rattata;normal;35;20;832;30;56;35;25;35;72
+20;run-away, guts, hustle;145;raticate;7;raticate;27;;raticate;normal;185;20;832;55;81;60;50;70;97
+21;keen-eye, sniper;52;spearow;3;spearow;30;;spearow;normal, flying;20;22;733;40;60;30;31;31;70
+22;keen-eye, sniper;155;fearow;12;fearow;31;;fearow;normal, flying;380;22;733;65;90;65;61;61;100
+23;intimidate, shed-skin, unnerve;58;ekans;20;ekans;32;;ekans;poison;69;24;803;35;60;44;40;54;55
+24;intimidate, shed-skin, unnerve;157;arbok;35;arbok;33;;arbok;poison;650;24;803;60;95;69;65;79;80
+25;static, lightning-rod;112;pikachu;4;pikachu;35;;pikachu;electric;60;172;894;35;55;40;50;50;90
+26;static, lightning-rod;243;raichu;8;raichu;51;;raichu;electric;300;172;894;60;90;55;90;80;110
+27;sand-veil, sand-rush;60;sandshrew;6;sandshrew;53;;sandshrew;ground;120;28;844;50;75;85;20;30;40
+28;sand-veil, sand-rush;158;sandslash;10;sandslash;55;;sandslash;ground;295;28;844;75;100;110;45;55;65
+29;poison-point, rivalry, hustle;55;nidoran-f;4;nidoran-f;57;;nidoran-f;poison;70;33;803;55;47;52;40;40;41
+30;poison-point, rivalry, hustle;128;nidorina;8;nidorina;58;;nidorina;poison;200;33;803;70;62;67;55;55;56
+31;poison-point, rivalry, sheer-force;253;nidoqueen;13;nidoqueen;59;;nidoqueen;poison, ground;600;34;34;90;92;87;75;85;76
+32;poison-point, rivalry, hustle;55;nidoran-m;5;nidoran-m;60;;nidoran-m;poison;90;33;803;46;57;40;40;40;50
+33;poison-point, rivalry, hustle;128;nidorino;9;nidorino;61;;nidorino;poison;195;33;803;61;72;57;55;55;65
+34;poison-point, rivalry, sheer-force;253;nidoking;14;nidoking;62;;nidoking;poison, ground;620;34;34;81;102;77;85;75;85
+35;cute-charm, magic-guard, friend-guard;113;clefairy;6;clefairy;64;generation-v, normal;clefairy;fairy;75;173;888;70;45;48;60;65;35
+36;cute-charm, magic-guard, unaware;242;clefable;13;clefable;65;generation-v, normal;clefable;fairy;400;36;888;95;70;73;95;90;60
+37;flash-fire, drought;60;vulpix;6;vulpix;66;;vulpix;fire;99;38;815;38;41;40;50;65;65
+38;flash-fire, drought;177;ninetales;11;ninetales;68;;ninetales;fire;199;38;815;73;76;75;81;100;100
+39;cute-charm, competitive, friend-guard;95;jigglypuff;5;jigglypuff;71;generation-v, normal;jigglypuff;normal, fairy;55;174;298;115;45;20;45;25;20
+40;cute-charm, competitive, frisk;218;wigglytuff;10;wigglytuff;72;generation-v, normal;wigglytuff;normal, fairy;120;40;298;140;70;45;85;50;45
+41;inner-focus, infiltrator;49;zubat;8;zubat;73;;zubat;poison, flying;75;169;169;40;45;35;30;40;55
+42;inner-focus, infiltrator;159;golbat;16;golbat;74;;golbat;poison, flying;550;169;169;75;80;70;65;75;90
+43;chlorophyll, run-away;64;oddish;5;oddish;76;;oddish;grass, poison;54;43;591;45;50;55;75;65;30
+44;chlorophyll, stench;138;gloom;8;gloom;77;;gloom;grass, poison;86;44;591;60;65;70;85;75;40
+45;chlorophyll, effect-spore;245;vileplume;12;vileplume;78;;vileplume;grass, poison;186;45;591;75;80;85;110;90;50
+46;effect-spore, dry-skin, damp;57;paras;3;paras;80;;paras;bug, grass;54;47;542;35;70;55;45;55;25
+47;effect-spore, dry-skin, damp;142;parasect;10;parasect;81;;parasect;bug, grass;295;47;542;60;95;80;60;80;30
+48;compound-eyes, tinted-lens, ;61;venonat;10;venonat;82;;venonat;bug, poison;300;48;545;60;55;50;40;55;45
+49;shield-dust, tinted-lens, ;158;venomoth;15;venomoth;83;;venomoth;bug, poison;125;49;545;70;65;60;90;75;90
+50;sand-veil, arena-trap, sand-force;53;diglett;2;diglett;84;;diglett;ground;8;51;844;10;55;25;35;45;95
+51;sand-veil, arena-trap, sand-force;149;dugtrio;7;dugtrio;86;;dugtrio;ground;333;51;844;35;100;50;50;70;120
+52;pickup, technician, unnerve;58;meowth;4;meowth;88;;meowth;normal;42;52;832;40;45;35;40;40;90
+53;limber, technician, unnerve;154;persian;10;persian;91;;persian;normal;320;53;832;65;70;60;65;65;115
+54;damp, cloud-nine, swift-swim;64;psyduck;8;psyduck;93;;psyduck;water;196;55;847;50;52;48;65;50;55
+55;damp, cloud-nine, swift-swim;175;golduck;17;golduck;94;;golduck;water;766;55;847;80;82;78;95;80;85
+56;vital-spirit, anger-point, ;61;mankey;5;mankey;95;;mankey;fighting;280;57;891;40;80;35;35;45;70
+57;vital-spirit, anger-point, ;159;primeape;10;primeape;96;;primeape;fighting;320;57;891;65;105;60;60;70;95
+58;intimidate, flash-fire, justified;70;growlithe;7;growlithe;97;;growlithe;fire;190;59;815;55;70;45;70;50;60
+59;intimidate, flash-fire, justified;194;arcanine;19;arcanine;98;;arcanine;fire;1550;59;815;90;110;80;100;80;95
+60;water-absorb, damp, swift-swim;60;poliwag;6;poliwag;99;;poliwag;water;124;62;847;40;50;40;40;40;90
+61;water-absorb, damp, swift-swim;135;poliwhirl;10;poliwhirl;100;;poliwhirl;water;200;62;847;65;65;65;50;50;90
+62;water-absorb, damp, swift-swim;255;poliwrath;13;poliwrath;101;;poliwrath;water, fighting;540;62;647;90;95;95;70;90;70
+63;synchronize, inner-focus, ;62;abra;9;abra;103;;abra;psychic;195;65;857;25;20;15;105;55;90
+64;synchronize, inner-focus, ;140;kadabra;13;kadabra;104;;kadabra;psychic;565;65;857;40;35;30;120;70;105
+65;synchronize, inner-focus, ;250;alakazam;15;alakazam;105;;alakazam;psychic;480;65;857;55;50;45;135;95;120
+66;guts, no-guard, steadfast;61;machop;8;machop;107;;machop;fighting;195;68;891;70;80;50;35;35;35
+67;guts, no-guard, steadfast;142;machoke;15;machoke;108;;machoke;fighting;705;68;891;80;100;70;50;60;45
+68;guts, no-guard, steadfast;253;machamp;16;machamp;109;;machamp;fighting;1300;68;891;90;130;80;65;85;55
+69;chlorophyll, gluttony;60;bellsprout;7;bellsprout;110;;bellsprout;grass, poison;40;71;591;50;75;35;70;30;40
+70;chlorophyll, gluttony;137;weepinbell;10;weepinbell;111;;weepinbell;grass, poison;64;71;591;65;90;50;85;45;55
+71;chlorophyll, gluttony;221;victreebel;17;victreebel;112;;victreebel;grass, poison;155;71;591;80;105;65;100;70;70
+72;clear-body, liquid-ooze, rain-dish;67;tentacool;9;tentacool;113;;tentacool;water, poison;455;73;211;40;40;35;50;100;70
+73;clear-body, liquid-ooze, rain-dish;180;tentacruel;16;tentacruel;114;;tentacruel;water, poison;550;73;211;80;70;65;80;120;100
+74;rock-head, sturdy, sand-veil;60;geodude;4;geodude;115;;geodude;rock, ground;200;76;247;40;80;100;30;30;20
+75;rock-head, sturdy, sand-veil;137;graveler;10;graveler;117;;graveler;rock, ground;1050;76;247;55;95;115;45;45;35
+76;rock-head, sturdy, sand-veil;223;golem;14;golem;119;;golem;rock, ground;3000;76;247;80;120;130;55;65;45
+77;run-away, flash-fire, flame-body;82;ponyta;10;ponyta;121;;ponyta;fire;300;78;815;50;85;55;65;65;90
+78;run-away, flash-fire, flame-body;175;rapidash;17;rapidash;123;;rapidash;fire;950;78;815;65;100;70;80;80;105
+79;oblivious, own-tempo, regenerator;63;slowpoke;12;slowpoke;125;;slowpoke;water, psychic;360;199;779;90;65;65;40;40;15
+80;oblivious, own-tempo, regenerator;172;slowbro;16;slowbro;127;;slowbro;water, psychic;785;199;779;95;75;110;100;80;30
+81;magnet-pull, sturdy, analytic;65;magnemite;3;magnemite;132;generation-i, electric;magnemite;electric, steel;60;462;777;25;35;70;95;55;45
+82;magnet-pull, sturdy, analytic;163;magneton;10;magneton;133;generation-i, electric;magneton;electric, steel;600;462;777;50;60;95;120;70;70
+83;keen-eye, inner-focus, defiant;132;farfetchd;8;farfetchd;135;;farfetchd;normal, flying;150;83;733;52;90;55;58;62;60
+84;run-away, early-bird, tangled-feet;62;doduo;14;doduo;137;;doduo;normal, flying;392;85;733;35;85;45;35;35;75
+85;run-away, early-bird, tangled-feet;165;dodrio;18;dodrio;138;;dodrio;normal, flying;852;85;733;60;110;70;60;60;110
+86;thick-fat, hydration, ice-body;65;seel;11;seel;139;;seel;water;900;87;847;65;45;55;45;70;45
+87;thick-fat, hydration, ice-body;166;dewgong;17;dewgong;140;;dewgong;water, ice;1200;87;883;90;70;80;70;95;70
+88;stench, sticky-hold, poison-touch;65;grimer;9;grimer;141;;grimer;poison;300;89;803;80;80;50;40;50;25
+89;stench, sticky-hold, poison-touch;175;muk;12;muk;143;;muk;poison;300;89;803;105;105;75;65;100;50
+90;shell-armor, skill-link, overcoat;61;shellder;3;shellder;145;;shellder;water;40;91;847;30;65;100;45;25;40
+91;shell-armor, skill-link, overcoat;184;cloyster;15;cloyster;146;;cloyster;water, ice;1325;91;883;50;95;180;85;45;70
+92;levitate;62;gastly;13;gastly;147;;gastly;ghost, poison;1;738;94;30;35;30;100;35;80
+93;levitate;142;haunter;16;haunter;148;;haunter;ghost, poison;1;738;94;45;50;45;115;55;95
+94;cursed-body;250;gengar;15;gengar;149;;gengar;ghost, poison;405;94;94;60;65;60;130;75;110
+95;rock-head, sturdy, weak-armor;77;onix;88;onix;151;;onix;rock, ground;2100;95;247;35;45;160;30;45;70
+96;insomnia, forewarn, inner-focus;66;drowzee;10;drowzee;154;;drowzee;psychic;324;97;857;60;48;45;43;90;42
+97;insomnia, forewarn, inner-focus;169;hypno;16;hypno;155;;hypno;psychic;756;97;857;85;73;70;73;115;67
+98;hyper-cutter, shell-armor, ;65;krabby;4;krabby;156;;krabby;water;65;342;847;30;105;90;25;25;50
+99;hyper-cutter, shell-armor, ;166;kingler;13;kingler;157;;kingler;water;600;342;847;55;130;115;50;50;75
+100;soundproof, static, aftermath;66;voltorb;5;voltorb;158;;voltorb;electric;104;101;894;40;30;50;55;55;100
+101;soundproof, static, aftermath;172;electrode;12;electrode;159;;electrode;electric;666;101;894;60;50;70;80;80;150
+102;chlorophyll, harvest;65;exeggcute;4;exeggcute;160;;exeggcute;grass, psychic;25;103;103;60;40;80;60;45;40
+103;chlorophyll, harvest;186;exeggutor;20;exeggutor;161;;exeggutor;grass, psychic;1200;103;103;95;95;85;125;75;55
+104;rock-head, lightning-rod, ;64;cubone;4;cubone;163;;cubone;ground;65;105;844;50;50;95;40;50;35
+105;rock-head, lightning-rod, ;149;marowak;10;marowak;164;;marowak;ground;450;105;844;60;80;110;50;80;45
+106;limber, reckless, unburden;159;hitmonlee;15;hitmonlee;168;;hitmonlee;fighting;498;106;891;50;120;53;35;110;87
+107;keen-eye, iron-fist, inner-focus;159;hitmonchan;14;hitmonchan;169;;hitmonchan;fighting;502;107;891;50;105;79;35;110;76
+108;own-tempo, oblivious, cloud-nine;77;lickitung;12;lickitung;171;;lickitung;normal;655;463;832;90;55;75;60;75;30
+109;levitate, neutralizing-gas, ;68;koffing;6;koffing;173;;koffing;poison;10;110;803;40;65;95;60;45;35
+110;levitate, neutralizing-gas, ;172;weezing;12;weezing;174;;weezing;poison;95;110;803;65;90;120;85;70;60
+111;lightning-rod, rock-head, ;69;rhyhorn;10;rhyhorn;176;;rhyhorn;ground, rock;1150;112;464;80;85;95;30;30;25
+112;lightning-rod, rock-head, ;170;rhydon;19;rhydon;177;;rhydon;ground, rock;1200;112;464;105;130;120;45;45;40
+113;natural-cure, serene-grace, ;395;chansey;11;chansey;180;;chansey;normal;346;440;832;250;5;5;35;105;50
+114;chlorophyll, leaf-guard, regenerator;87;tangela;10;tangela;182;;tangela;grass;350;465;830;65;55;115;100;40;60
+115;early-bird, scrappy, inner-focus;172;kangaskhan;22;kangaskhan;184;;kangaskhan;normal;800;115;832;105;95;80;40;80;90
+116;swift-swim, sniper, damp;59;horsea;4;horsea;186;;horsea;water;80;230;847;30;40;70;70;25;60
+117;poison-point, sniper, damp;154;seadra;12;seadra;187;;seadra;water;250;117;847;55;65;95;95;45;85
+118;swift-swim, water-veil, lightning-rod;64;goldeen;6;goldeen;189;;goldeen;water;150;119;847;45;67;60;35;50;63
+119;swift-swim, water-veil, lightning-rod;158;seaking;13;seaking;190;;seaking;water;390;119;847;80;92;65;65;80;68
+120;illuminate, natural-cure, ;68;staryu;8;staryu;191;;staryu;water;345;121;847;30;45;55;70;55;85
+121;illuminate, natural-cure, ;182;starmie;11;starmie;192;;starmie;water, psychic;800;121;779;60;75;85;100;85;115
+122;soundproof, filter, technician;161;mr-mime;13;mr-mime;194;generation-v, psychic;mr-mime;psychic, fairy;545;439;858;40;45;65;100;120;90
+123;swarm, technician, steadfast;100;scyther;15;scyther;196;;scyther;bug, flying;560;123;666;70;110;80;55;80;105
+124;oblivious, forewarn, dry-skin;159;jynx;14;jynx;200;;jynx;ice, psychic;406;124;866;65;50;35;115;95;95
+125;static, vital-spirit;172;electabuzz;11;electabuzz;202;;electabuzz;electric;300;239;894;65;83;57;95;85;105
+126;flame-body, vital-spirit;173;magmar;13;magmar;205;;magmar;fire;445;467;815;65;95;57;100;85;93
+127;hyper-cutter, mold-breaker, ;175;pinsir;15;pinsir;207;;pinsir;bug;550;127;824;65;125;100;55;70;85
+128;intimidate, anger-point, sheer-force;172;tauros;14;tauros;209;;tauros;normal;884;128;832;75;100;95;40;70;110
+129;swift-swim, rattled;40;magikarp;9;magikarp;210;;magikarp;water;100;129;847;20;10;55;15;20;80
+130;intimidate, moxie;189;gyarados;65;gyarados;211;;gyarados;water, flying;2350;373;581;95;125;79;60;100;81
+131;water-absorb, shell-armor, ;187;lapras;25;lapras;213;;lapras;water, ice;2200;131;883;130;85;80;85;95;60
+132;limber, imposter;101;ditto;3;ditto;214;;ditto;normal;40;132;832;48;48;48;48;48;48
+133;run-away, adaptability, anticipation;65;eevee;3;eevee;215;;eevee;normal;65;133;832;55;55;50;45;65;55
+134;water-absorb, hydration;184;vaporeon;10;vaporeon;217;;vaporeon;water;290;134;847;130;65;60;110;95;65
+135;volt-absorb, quick-feet;184;jolteon;8;jolteon;218;;jolteon;electric;245;135;894;65;65;60;110;95;130
+136;flash-fire, guts;184;flareon;9;flareon;219;;flareon;fire;250;136;815;65;130;60;95;110;65
+137;trace, download, analytic;79;porygon;8;porygon;225;;porygon;normal;365;233;832;65;60;70;85;75;40
+138;swift-swim, shell-armor, weak-armor;71;omanyte;4;omanyte;228;;omanyte;rock, water;75;139;689;35;40;100;90;55;35
+139;swift-swim, shell-armor, weak-armor;173;omastar;10;omastar;229;;omastar;rock, water;350;139;689;70;60;125;115;70;55
+140;swift-swim, battle-armor, ;71;kabuto;5;kabuto;230;;kabuto;rock, water;115;141;689;30;80;90;55;45;55
+141;swift-swim, battle-armor, ;173;kabutops;13;kabutops;231;;kabutops;rock, water;405;141;689;60;115;105;65;70;80
+142;rock-head, pressure, unnerve;180;aerodactyl;18;aerodactyl;232;;aerodactyl;rock, flying;590;142;774;80;105;65;60;75;130
+143;immunity, thick-fat, gluttony;189;snorlax;21;snorlax;235;;snorlax;normal;4600;143;832;160;110;65;65;110;30
+144;pressure, snow-cloak;290;articuno;17;articuno;236;;articuno;ice, flying;554;144;225;90;85;100;95;125;85
+145;pressure, static;290;zapdos;16;zapdos;238;;zapdos;electric, flying;526;145;642;90;90;85;125;90;100
+146;pressure, flame-body;290;moltres;20;moltres;240;;moltres;fire, flying;600;146;741;90;100;90;125;85;90
+147;shed-skin, marvel-scale;60;dratini;18;dratini;242;;dratini;dragon;33;148;895;41;64;45;50;50;50
+148;shed-skin, marvel-scale;147;dragonair;40;dragonair;243;;dragonair;dragon;165;148;895;61;84;65;70;70;70
+149;inner-focus, multiscale;300;dragonite;22;dragonite;244;;dragonite;dragon, flying;2100;149;384;91;134;95;100;100;80
+150;pressure, unnerve;340;mewtwo;20;mewtwo;245;;mewtwo;psychic;1220;416;857;106;110;90;154;90;130
+151;synchronize;300;mew;4;mew;248;;mew;psychic;40;151;857;100;100;100;100;100;100
+152;overgrow, leaf-guard;64;chikorita;9;chikorita;249;;chikorita;grass;64;154;830;45;49;65;49;65;45
+153;overgrow, leaf-guard;142;bayleef;12;bayleef;250;;bayleef;grass;158;154;830;60;62;80;63;80;60
+154;overgrow, leaf-guard;236;meganium;18;meganium;251;;meganium;grass;1005;154;830;80;82;100;83;100;80
+155;blaze, flash-fire;62;cyndaquil;5;cyndaquil;252;;cyndaquil;fire;79;157;815;39;52;43;60;50;65
+156;blaze, flash-fire;142;quilava;9;quilava;253;;quilava;fire;190;157;815;58;64;58;80;65;80
+157;blaze, flash-fire;240;typhlosion;17;typhlosion;254;;typhlosion;fire;795;157;815;78;84;78;109;85;100
+158;torrent, sheer-force;63;totodile;6;totodile;255;;totodile;water;95;160;847;50;65;64;44;48;43
+159;torrent, sheer-force;142;croconaw;11;croconaw;256;;croconaw;water;250;160;847;65;80;80;59;63;58
+160;torrent, sheer-force;239;feraligatr;23;feraligatr;257;;feraligatr;water;888;160;847;85;105;100;79;83;78
+161;run-away, keen-eye, frisk;43;sentret;8;sentret;258;;sentret;normal;60;162;832;35;46;34;35;45;20
+162;run-away, keen-eye, frisk;145;furret;18;furret;259;;furret;normal;325;162;832;85;76;64;45;55;90
+163;insomnia, keen-eye, tinted-lens;52;hoothoot;7;hoothoot;260;;hoothoot;normal, flying;212;164;733;60;30;30;36;56;50
+164;insomnia, keen-eye, tinted-lens;158;noctowl;16;noctowl;261;;noctowl;normal, flying;408;164;733;100;50;50;86;96;70
+165;swarm, early-bird, rattled;53;ledyba;10;ledyba;262;;ledyba;bug, flying;108;165;666;40;20;30;40;80;55
+166;swarm, early-bird, iron-fist;137;ledian;14;ledian;263;;ledian;bug, flying;356;166;666;55;35;50;55;110;85
+167;swarm, insomnia, sniper;50;spinarak;5;spinarak;264;;spinarak;bug, poison;85;168;545;40;60;40;40;40;30
+168;swarm, insomnia, sniper;140;ariados;11;ariados;265;;ariados;bug, poison;335;168;545;70;90;70;60;70;40
+169;inner-focus, infiltrator;268;crobat;18;crobat;75;;crobat;poison, flying;750;169;169;85;90;80;70;80;130
+170;volt-absorb, illuminate, water-absorb;66;chinchou;5;chinchou;266;;chinchou;water, electric;120;171;171;75;38;38;56;56;67
+171;volt-absorb, illuminate, water-absorb;161;lanturn;12;lanturn;267;;lanturn;water, electric;225;171;171;125;58;58;76;76;67
+172;static, lightning-rod;41;pichu, pichu-spiky-eared;3;pichu;34;;pichu;electric;20;172;894;20;40;15;35;35;60
+173;cute-charm, magic-guard, friend-guard;44;cleffa;3;cleffa;63;generation-v, normal;cleffa;fairy;30;173;888;50;25;28;45;55;15
+174;cute-charm, competitive, friend-guard;42;igglybuff;3;igglybuff;70;generation-v, normal;igglybuff;normal, fairy;10;174;298;90;30;15;40;20;15
+175;hustle, serene-grace, super-luck;49;togepi;3;togepi;268;generation-v, normal;togepi;fairy;15;468;888;35;20;65;40;65;20
+176;hustle, serene-grace, super-luck;142;togetic;6;togetic;269;generation-v, normal, flying;togetic;fairy, flying;32;468;468;55;40;85;80;105;40
+177;synchronize, early-bird, magic-bounce;64;natu;2;natu;271;;natu;psychic, flying;20;178;561;40;50;45;70;45;70
+178;synchronize, early-bird, magic-bounce;165;xatu;15;xatu;272;;xatu;psychic, flying;150;178;561;65;75;70;95;70;95
+179;static, plus;56;mareep;6;mareep;273;;mareep;electric;78;181;894;55;40;40;65;45;35
+180;static, plus;128;flaaffy;8;flaaffy;274;;flaaffy;electric;133;181;894;70;55;55;80;60;45
+181;static, plus;230;ampharos;14;ampharos;275;;ampharos;electric;615;181;894;90;75;85;115;90;55
+182;chlorophyll, healer;245;bellossom;4;bellossom;79;;bellossom;grass;58;182;830;75;80;95;90;100;50
+183;thick-fat, huge-power, sap-sipper;88;marill;4;marill;278;generation-v, water;marill;water, fairy;85;298;788;70;20;50;20;50;40
+184;thick-fat, huge-power, sap-sipper;210;azumarill;8;azumarill;279;generation-v, water;azumarill;water, fairy;285;298;788;100;50;80;60;80;50
+185;sturdy, rock-head, rattled;144;sudowoodo;12;sudowoodo;281;;sudowoodo;rock;380;438;874;70;100;115;30;65;30
+186;water-absorb, damp, drizzle;250;politoed;11;politoed;102;;politoed;water;339;186;847;90;75;75;90;100;70
+187;chlorophyll, leaf-guard, infiltrator;50;hoppip;4;hoppip;282;;hoppip;grass, flying;5;189;723;35;35;40;35;55;50
+188;chlorophyll, leaf-guard, infiltrator;119;skiploom;6;skiploom;283;;skiploom;grass, flying;10;189;723;55;45;50;45;65;80
+189;chlorophyll, leaf-guard, infiltrator;207;jumpluff;8;jumpluff;284;;jumpluff;grass, flying;30;189;723;75;55;70;55;95;110
+190;run-away, pickup, skill-link;72;aipom;8;aipom;285;;aipom;normal;115;190;832;55;70;55;40;55;85
+191;chlorophyll, solar-power, ;36;sunkern;3;sunkern;287;;sunkern;grass;18;357;830;30;30;30;30;30;30
+192;chlorophyll, solar-power, ;149;sunflora;8;sunflora;288;;sunflora;grass;85;357;830;75;75;55;105;85;30
+193;speed-boost, compound-eyes, ;78;yanma;12;yanma;289;;yanma;bug, flying;380;193;666;65;65;45;75;45;95
+194;damp, water-absorb, unaware;42;wooper;4;wooper;291;;wooper;water, ground;85;195;537;55;45;45;25;25;15
+195;damp, water-absorb, unaware;151;quagsire;14;quagsire;292;;quagsire;water, ground;750;195;537;95;85;85;65;65;35
+196;synchronize, magic-bounce;184;espeon;9;espeon;220;;espeon;psychic;265;196;857;65;65;60;130;95;110
+197;synchronize, inner-focus;184;umbreon;10;umbreon;221;;umbreon;dark;270;197;828;95;65;110;60;130;65
+198;insomnia, super-luck, prankster;81;murkrow;5;murkrow;293;;murkrow;dark, flying;21;198;717;60;85;42;85;42;91
+199;oblivious, own-tempo, regenerator;172;slowking;20;slowking;130;;slowking;water, psychic;795;199;779;95;75;80;100;110;30
+200;levitate;87;misdreavus;7;misdreavus;295;;misdreavus;ghost;10;738;897;60;60;60;85;85;85
+201;levitate;118;unown-a, unown-b, unown-c, unown-d, unown-e, unown-f, unown-g, unown-h, unown-i, unown-j, unown-k, unown-k, unown-l, unown-m, unown-n, unown-o, unown-p, unown-q, unown-r, unown-s, unown-t, unown-u, unown-u, unown-v, unown-w, unown-x, unown-y, unown-z;5;unown;297;;unown;psychic;50;738;857;48;72;48;72;48;48
+202;shadow-tag, telepathy;142;wobbuffet;13;wobbuffet;299;;wobbuffet;psychic;285;360;857;190;33;58;33;58;33
+203;inner-focus, early-bird, sap-sipper;159;girafarig;15;girafarig;300;;girafarig;normal, psychic;415;203;765;70;80;65;90;65;85
+204;sturdy, overcoat;58;pineco;6;pineco;301;;pineco;bug;72;205;824;50;65;90;35;35;15
+205;sturdy, overcoat;163;forretress;12;forretress;302;;forretress;bug, steel;1258;205;649;75;90;140;60;60;40
+206;serene-grace, run-away, rattled;145;dunsparce;15;dunsparce;303;;dunsparce;normal;140;206;832;100;70;70;65;65;45
+207;hyper-cutter, sand-veil, immunity;86;gligar;11;gligar;304;;gligar;ground, flying;648;207;645;65;75;105;35;65;85
+208;rock-head, sturdy, sheer-force;179;steelix;92;steelix;152;;steelix;steel, ground;4000;208;208;75;85;200;55;65;30
+209;intimidate, run-away, rattled;60;snubbull;6;snubbull;306;generation-v, normal;snubbull;fairy;78;209;888;60;80;50;40;40;30
+210;intimidate, quick-feet, rattled;158;granbull;14;granbull;307;generation-v, normal;granbull;fairy;487;210;888;90;120;75;60;60;45
+211;poison-point, swift-swim, ;88;qwilfish;5;qwilfish;308;;qwilfish;water, poison;39;211;211;65;95;85;55;55;85
+212;swarm, technician, light-metal;175;scizor;18;scizor;197;;scizor;bug, steel;1180;212;649;70;130;100;55;80;65
+213;sturdy, gluttony, contrary;177;shuckle;6;shuckle;309;;shuckle;bug, rock;205;213;558;20;10;230;10;230;5
+214;swarm, guts, moxie;175;heracross;15;heracross;310;;heracross;bug, fighting;540;214;795;80;125;75;40;95;85
+215;inner-focus, keen-eye, pickpocket;86;sneasel;9;sneasel;312;;sneasel;dark, ice;280;215;461;55;95;55;35;75;115
+216;pickup, quick-feet, honey-gather;66;teddiursa;6;teddiursa;314;;teddiursa;normal;88;216;832;60;80;50;50;50;40
+217;guts, quick-feet, unnerve;175;ursaring;18;ursaring;315;;ursaring;normal;1258;217;832;90;130;75;75;75;55
+218;magma-armor, flame-body, weak-armor;50;slugma;7;slugma;316;;slugma;fire;350;219;815;40;40;40;70;40;20
+219;magma-armor, flame-body, weak-armor;151;magcargo;8;magcargo;317;;magcargo;fire, rock;550;219;219;60;50;120;90;80;30
+220;oblivious, snow-cloak, thick-fat;50;swinub;4;swinub;318;;swinub;ice, ground;65;473;473;50;50;40;30;30;50
+221;oblivious, snow-cloak, thick-fat;158;piloswine;11;piloswine;319;;piloswine;ice, ground;558;473;473;100;100;80;60;60;50
+222;hustle, natural-cure, regenerator;144;corsola;6;corsola;321;;corsola;water, rock;50;222;834;65;55;95;65;95;35
+223;hustle, sniper, moody;60;remoraid;6;remoraid;323;;remoraid;water;120;223;847;35;65;35;65;35;65
+224;suction-cups, sniper, moody;168;octillery;9;octillery;324;;octillery;water;285;224;847;75;105;75;105;75;45
+225;vital-spirit, hustle, insomnia;116;delibird;9;delibird;325;;delibird;ice, flying;160;225;225;45;55;45;65;45;75
+226;swift-swim, water-absorb, ;170;mantine;21;mantine;327;;mantine;water, flying;2200;458;581;85;40;70;80;140;70
+227;keen-eye, sturdy, weak-armor;163;skarmory;17;skarmory;328;;skarmory;steel, flying;505;227;797;65;80;140;40;70;70
+228;early-bird, flash-fire, unnerve;66;houndour;6;houndour;329;;houndour;dark, fire;108;229;229;45;60;30;80;50;65
+229;early-bird, flash-fire, unnerve;175;houndoom;14;houndoom;330;;houndoom;dark, fire;350;229;229;75;90;50;110;80;95
+230;swift-swim, sniper, damp;270;kingdra;18;kingdra;188;;kingdra;water, dragon;1520;230;882;75;95;95;95;95;85
+231;pickup, sand-veil;66;phanpy;5;phanpy;332;;phanpy;ground;335;231;844;90;60;60;40;40;40
+232;sturdy, sand-veil;175;donphan;11;donphan;333;;donphan;ground;1200;232;844;90;120;120;60;60;50
+233;trace, download, analytic;180;porygon2;6;porygon2;226;;porygon2;normal;325;233;832;85;80;90;105;95;60
+234;intimidate, frisk, sap-sipper;163;stantler;14;stantler;334;;stantler;normal;712;234;832;73;95;62;85;65;85
+235;own-tempo, technician, moody;88;smeargle;12;smeargle;335;;smeargle;normal;580;235;832;55;20;35;20;45;75
+236;guts, steadfast, vital-spirit;42;tyrogue;7;tyrogue;167;;tyrogue;fighting;210;236;891;35;35;35;35;35;35
+237;intimidate, technician, steadfast;159;hitmontop;14;hitmontop;170;;hitmontop;fighting;480;237;891;50;95;95;35;110;70
+238;oblivious, forewarn, hydration;61;smoochum;4;smoochum;199;;smoochum;ice, psychic;60;238;866;45;30;15;85;65;65
+239;static, vital-spirit;72;elekid;6;elekid;201;;elekid;electric;235;239;894;45;63;37;65;55;95
+240;flame-body, vital-spirit;73;magby;7;magby;204;;magby;fire;214;467;815;45;75;37;70;55;83
+241;thick-fat, scrappy, sap-sipper;172;miltank;12;miltank;336;;miltank;normal;755;241;832;95;80;105;40;70;100
+242;natural-cure, serene-grace, ;635;blissey;15;blissey;181;;blissey;normal;468;440;832;255;10;10;75;135;55
+243;pressure, inner-focus;290;raikou;19;raikou;337;;raikou;electric;1780;245;894;90;85;75;115;100;115
+244;pressure, inner-focus;290;entei;21;entei;338;;entei;fire;1980;245;815;115;115;85;90;75;100
+245;pressure, inner-focus;290;suicune;20;suicune;339;;suicune;water;1870;245;847;100;75;115;90;115;85
+246;guts, sand-veil;60;larvitar;6;larvitar;340;;larvitar;rock, ground;720;246;247;50;64;50;45;50;41
+247;shed-skin;144;pupitar;12;pupitar;341;;pupitar;rock, ground;1520;268;247;70;84;70;65;70;51
+248;sand-stream, unnerve;300;tyranitar;20;tyranitar;342;;tyranitar;rock, dark;2020;248;248;100;134;110;95;100;61
+249;pressure, multiscale;340;lugia;52;lugia;344;;lugia;psychic, flying;2160;249;561;106;90;130;90;154;110
+250;pressure, regenerator;340;ho-oh;38;ho-oh;345;;ho-oh;fire, flying;1990;250;741;106;130;90;110;154;90
+251;natural-cure;300;celebi;6;celebi;346;;celebi;psychic, grass;50;492;898;100;100;100;100;100;100
+252;overgrow, unburden;62;treecko;5;treecko;347;;treecko;grass;50;254;830;40;45;35;65;55;70
+253;overgrow, unburden;142;grovyle;9;grovyle;348;;grovyle;grass;216;254;830;50;65;45;85;65;95
+254;overgrow, unburden;265;sceptile;17;sceptile;349;;sceptile;grass;522;254;830;70;85;65;105;85;120
+255;blaze, speed-boost;62;torchic;4;torchic;351;;torchic;fire;25;257;815;45;60;40;70;50;45
+256;blaze, speed-boost;142;combusken;9;combusken;352;;combusken;fire, fighting;195;257;500;60;85;60;85;60;55
+257;blaze, speed-boost;265;blaziken;19;blaziken;353;;blaziken;fire, fighting;520;257;500;80;120;70;110;70;80
+258;torrent, damp;62;mudkip;4;mudkip;355;;mudkip;water;76;260;847;50;70;50;50;50;40
+259;torrent, damp;142;marshtomp;7;marshtomp;356;;marshtomp;water, ground;280;260;537;70;85;70;60;70;50
+260;torrent, damp;268;swampert;15;swampert;357;;swampert;water, ground;819;260;537;100;110;90;85;90;60
+261;run-away, quick-feet, rattled;56;poochyena;5;poochyena;359;;poochyena;dark;136;261;828;35;55;35;30;30;35
+262;intimidate, quick-feet, moxie;147;mightyena;10;mightyena;360;;mightyena;dark;370;262;828;70;90;70;60;60;70
+263;pickup, gluttony, quick-feet;56;zigzagoon;4;zigzagoon;361;;zigzagoon;normal;175;264;832;38;30;41;30;41;60
+264;pickup, gluttony, quick-feet;147;linoone;5;linoone;363;;linoone;normal;325;264;832;78;70;61;50;61;100
+265;shield-dust, run-away;56;wurmple;3;wurmple;365;;wurmple;bug;36;265;824;45;45;35;20;30;20
+266;shed-skin;72;silcoon;6;silcoon;366;;silcoon;bug;100;268;824;50;35;55;25;25;15
+267;swarm, rivalry;178;beautifly;10;beautifly;367;;beautifly;bug, flying;284;267;666;60;70;50;100;50;65
+268;shed-skin;72;cascoon;7;cascoon;368;;cascoon;bug;115;268;824;50;35;55;25;25;15
+269;shield-dust, compound-eyes;173;dustox;12;dustox;369;;dustox;bug, poison;316;269;545;60;50;70;50;90;65
+270;swift-swim, rain-dish, own-tempo;44;lotad;5;lotad;370;;lotad;water, grass;26;272;272;40;30;30;40;50;30
+271;swift-swim, rain-dish, own-tempo;119;lombre;12;lombre;371;;lombre;water, grass;325;272;272;60;50;50;60;70;50
+272;swift-swim, rain-dish, own-tempo;240;ludicolo;15;ludicolo;372;;ludicolo;water, grass;550;272;272;80;70;70;90;100;70
+273;chlorophyll, early-bird, pickpocket;44;seedot;5;seedot;373;;seedot;grass;40;275;830;40;40;50;30;30;30
+274;chlorophyll, early-bird, pickpocket;119;nuzleaf;10;nuzleaf;374;;nuzleaf;grass, dark;280;275;332;70;70;40;60;40;60
+275;chlorophyll, early-bird, pickpocket;240;shiftry;13;shiftry;375;;shiftry;grass, dark;596;275;332;90;100;60;90;60;80
+276;guts, scrappy;54;taillow;3;taillow;376;;taillow;normal, flying;23;277;733;40;55;30;30;30;85
+277;guts, scrappy;159;swellow;7;swellow;377;;swellow;normal, flying;198;277;733;60;85;60;75;50;125
+278;keen-eye, hydration, rain-dish;54;wingull;6;wingull;378;;wingull;water, flying;95;278;581;40;30;30;55;30;85
+279;keen-eye, drizzle, rain-dish;154;pelipper;12;pelipper;379;;pelipper;water, flying;280;279;581;60;50;100;95;70;65
+280;synchronize, trace, telepathy;40;ralts;4;ralts;380;generation-v, psychic;ralts;psychic, fairy;66;282;858;28;25;25;45;35;40
+281;synchronize, trace, telepathy;97;kirlia;8;kirlia;381;generation-v, psychic;kirlia;psychic, fairy;202;282;858;38;35;35;65;55;50
+282;synchronize, trace, telepathy;259;gardevoir;16;gardevoir;382;generation-v, psychic;gardevoir;psychic, fairy;484;282;858;68;65;65;125;115;80
+283;swift-swim, rain-dish;54;surskit;5;surskit;386;;surskit;bug, water;17;283;768;40;30;32;50;52;65
+284;intimidate, unnerve;159;masquerain;8;masquerain;387;;masquerain;bug, flying;36;284;666;70;60;62;100;82;80
+285;effect-spore, poison-heal, ;59;shroomish;4;shroomish;388;;shroomish;grass;45;286;830;60;40;60;40;60;35
+286;effect-spore, poison-heal, ;161;breloom;12;breloom;389;;breloom;grass, fighting;392;286;652;60;130;80;60;60;70
+287;truant;56;slakoth;8;slakoth;390;;slakoth;normal;240;289;832;60;60;60;35;35;30
+288;vital-spirit;154;vigoroth;14;vigoroth;391;;vigoroth;normal;465;288;832;80;80;80;55;55;90
+289;truant;252;slaking;20;slaking;392;;slaking;normal;1305;289;832;150;160;100;95;65;100
+290;compound-eyes, run-away;53;nincada;5;nincada;393;;nincada;bug, ground;55;290;290;31;45;90;30;30;40
+291;speed-boost, infiltrator;160;ninjask;8;ninjask;394;;ninjask;bug, flying;120;291;666;61;90;45;50;50;160
+292;wonder-guard;83;shedinja;8;shedinja;395;;shedinja;bug, ghost;12;292;292;1;90;45;30;30;40
+293;soundproof, rattled;48;whismur;6;whismur;396;;whismur;normal;163;293;832;64;51;23;51;23;28
+294;soundproof, scrappy;126;loudred;10;loudred;397;;loudred;normal;405;295;832;84;71;43;71;43;48
+295;soundproof, scrappy;245;exploud;15;exploud;398;;exploud;normal;840;295;832;104;91;63;91;73;68
+296;thick-fat, guts, sheer-force;47;makuhita;10;makuhita;399;;makuhita;fighting;864;297;891;72;60;30;20;30;25
+297;thick-fat, guts, sheer-force;166;hariyama;23;hariyama;400;;hariyama;fighting;2538;297;891;144;120;60;40;60;50
+298;thick-fat, huge-power, sap-sipper;38;azurill;2;azurill;277;generation-v, normal;azurill;normal, fairy;20;298;298;50;20;40;20;40;20
+299;sturdy, magnet-pull, sand-force;75;nosepass;10;nosepass;401;;nosepass;rock;970;476;874;30;45;135;45;90;30
+300;cute-charm, normalize, wonder-skin;52;skitty;6;skitty;403;;skitty;normal;110;301;832;50;45;45;35;35;50
+301;cute-charm, normalize, wonder-skin;140;delcatty;11;delcatty;404;;delcatty;normal;326;301;832;70;65;65;55;55;90
+302;keen-eye, stall, prankster;133;sableye;5;sableye;405;;sableye;dark, ghost;110;302;302;50;75;75;65;65;50
+303;hyper-cutter, intimidate, ;133;mawile;6;mawile;407;generation-v, steel;mawile;steel, fairy;115;303;801;50;85;85;55;55;50
+304;sturdy, rock-head, heavy-metal;66;aron;4;aron;409;;aron;steel, rock;600;306;306;50;70;100;40;40;30
+305;sturdy, rock-head, heavy-metal;151;lairon;9;lairon;410;;lairon;steel, rock;1200;306;306;60;90;140;50;50;40
+306;sturdy, rock-head, heavy-metal;265;aggron;21;aggron;411;;aggron;steel, rock;3600;306;306;70;110;180;60;60;50
+307;pure-power, telepathy;56;meditite;6;meditite;413;;meditite;fighting, psychic;112;308;308;30;40;55;40;55;60
+308;pure-power, telepathy;144;medicham;13;medicham;414;;medicham;fighting, psychic;315;308;308;60;60;75;60;75;80
+309;static, lightning-rod, minus;59;electrike;6;electrike;416;;electrike;electric;152;310;894;40;45;40;65;40;65
+310;static, lightning-rod, minus;166;manectric;15;manectric;417;;manectric;electric;402;310;894;70;75;60;105;60;105
+311;plus, lightning-rod;142;plusle;4;plusle;419;;plusle;electric;42;311;894;60;50;40;85;75;95
+312;minus, volt-absorb;142;minun;4;minun;420;;minun;electric;42;312;894;60;40;50;75;85;95
+313;illuminate, swarm, prankster;151;volbeat;7;volbeat;421;;volbeat;bug;177;313;824;65;73;75;47;85;85
+314;oblivious, tinted-lens, prankster;151;illumise;6;illumise;422;;illumise;bug;177;314;824;65;47;75;73;85;85
+315;natural-cure, poison-point, ;140;roselia;3;roselia;424;;roselia;grass, poison;20;407;591;50;60;45;100;80;65
+316;liquid-ooze, sticky-hold, ;60;gulpin;4;gulpin;426;;gulpin;poison;103;317;803;70;43;53;43;53;40
+317;liquid-ooze, sticky-hold, ;163;swalot;17;swalot;427;;swalot;poison;800;317;803;100;73;83;73;83;55
+318;rough-skin, speed-boost;61;carvanha;8;carvanha;428;;carvanha;water, dark;208;319;658;45;90;20;65;20;65
+319;rough-skin, speed-boost;161;sharpedo;18;sharpedo;429;;sharpedo;water, dark;888;319;658;70;120;40;95;40;95
+320;water-veil, oblivious, pressure;80;wailmer;20;wailmer;431;;wailmer;water;1300;321;847;130;70;35;70;35;60
+321;water-veil, oblivious, pressure;175;wailord;145;wailord;432;;wailord;water;3980;321;847;170;90;45;90;45;60
+322;oblivious, simple, own-tempo;61;numel;7;numel;433;;numel;fire, ground;240;322;323;60;60;40;65;45;35
+323;magma-armor, solid-rock, anger-point;161;camerupt;19;camerupt;434;;camerupt;fire, ground;2200;323;323;70;100;70;105;75;40
+324;white-smoke, drought, shell-armor;165;torkoal;5;torkoal;436;;torkoal;fire;804;324;815;70;85;140;85;70;20
+325;thick-fat, own-tempo, gluttony;66;spoink;7;spoink;437;;spoink;psychic;306;326;857;60;25;35;70;80;60
+326;thick-fat, own-tempo, gluttony;165;grumpig;9;grumpig;438;;grumpig;psychic;715;326;857;80;45;65;90;110;80
+327;own-tempo, tangled-feet, contrary;126;spinda;11;spinda;439;;spinda;normal;50;327;832;60;60;60;60;60;60
+328;hyper-cutter, arena-trap, ;58;trapinch;7;trapinch;440;;trapinch;ground;150;328;844;45;100;45;45;45;10
+329;levitate;119;vibrava;11;vibrava;441;;vibrava;ground, dragon;153;738;330;50;70;50;50;50;70
+330;levitate;260;flygon;20;flygon;442;;flygon;ground, dragon;820;738;330;80;100;80;80;80;100
+331;sand-veil, water-absorb;67;cacnea;4;cacnea;443;;cacnea;grass;513;332;830;50;85;40;85;40;35
+332;sand-veil, water-absorb;166;cacturne;13;cacturne;444;;cacturne;grass, dark;774;332;332;70;115;60;115;60;55
+333;natural-cure, cloud-nine;62;swablu;4;swablu;445;;swablu;normal, flying;12;334;733;45;40;60;40;75;50
+334;natural-cure, cloud-nine;172;altaria;11;altaria;446;;altaria;dragon, flying;206;334;384;75;70;90;70;105;80
+335;immunity, toxic-boost;160;zangoose;13;zangoose;448;;zangoose;normal;403;335;832;73;115;60;60;60;90
+336;shed-skin, infiltrator;160;seviper;27;seviper;449;;seviper;poison;525;336;803;73;100;60;100;60;65
+337;levitate;161;lunatone;10;lunatone;450;;lunatone;rock, psychic;1680;738;338;90;55;65;95;85;70
+338;levitate;161;solrock;12;solrock;451;;solrock;rock, psychic;1540;738;338;90;95;85;55;65;70
+339;oblivious, anticipation, hydration;58;barboach;4;barboach;452;;barboach;water, ground;19;340;537;50;48;43;46;41;60
+340;oblivious, anticipation, hydration;164;whiscash;9;whiscash;453;;whiscash;water, ground;236;340;537;110;78;73;76;71;60
+341;hyper-cutter, shell-armor, ;62;corphish;6;corphish;454;;corphish;water;115;342;847;43;80;65;50;35;35
+342;hyper-cutter, shell-armor, ;164;crawdaunt;11;crawdaunt;455;;crawdaunt;water, dark;328;342;658;63;120;85;90;55;55
+343;levitate;60;baltoy;5;baltoy;456;;baltoy;ground, psychic;215;738;344;40;40;55;40;70;55
+344;levitate;175;claydol;15;claydol;457;;claydol;ground, psychic;1080;738;344;60;70;105;70;120;75
+345;suction-cups, storm-drain;71;lileep;10;lileep;458;;lileep;rock, grass;238;346;346;66;41;77;61;87;23
+346;suction-cups, storm-drain;173;cradily;15;cradily;459;;cradily;rock, grass;604;346;346;86;81;97;81;107;43
+347;battle-armor, swift-swim;71;anorith;7;anorith;460;;anorith;rock, bug;125;348;348;45;95;50;40;50;75
+348;battle-armor, swift-swim;173;armaldo;15;armaldo;461;;armaldo;rock, bug;682;348;348;75;125;100;70;80;45
+349;swift-swim, oblivious, adaptability;40;feebas;6;feebas;462;;feebas;water;74;349;847;20;15;20;10;55;80
+350;marvel-scale, competitive, ;189;milotic;62;milotic;463;;milotic;water;1620;350;847;95;60;79;100;125;81
+351;forecast;147;castform;3;castform;464;;castform;normal;8;351;832;70;70;70;70;70;70
+352;color-change, protean;154;kecleon;10;kecleon;468;;kecleon;normal;220;352;832;60;90;70;60;120;40
+353;insomnia, frisk, cursed-body;59;shuppet;6;shuppet;469;;shuppet;ghost;23;354;897;44;75;35;63;33;45
+354;insomnia, frisk, cursed-body;159;banette;11;banette;470;;banette;ghost;125;354;897;64;115;65;83;63;65
+355;levitate, frisk;59;duskull;8;duskull;472;;duskull;ghost;150;355;897;20;40;90;30;90;25
+356;pressure, frisk;159;dusclops;16;dusclops;473;;dusclops;ghost;306;477;897;40;70;130;60;130;25
+357;chlorophyll, solar-power, ;161;tropius;20;tropius;475;;tropius;grass, flying;1000;357;723;99;68;83;72;87;51
+358;levitate;159;chimecho;6;chimecho;477;;chimecho;psychic;10;738;857;75;50;80;95;90;65
+359;pressure, super-luck, justified;163;absol;12;absol;478;;absol;dark;470;359;828;65;130;60;75;60;75
+360;shadow-tag, telepathy;52;wynaut;6;wynaut;298;;wynaut;psychic;140;360;857;95;23;48;23;48;23
+361;inner-focus, ice-body, moody;60;snorunt;7;snorunt;480;;snorunt;ice;168;362;896;50;50;50;50;50;50
+362;inner-focus, ice-body, moody;168;glalie;15;glalie;481;;glalie;ice;2565;362;896;80;80;80;80;80;80
+363;thick-fat, ice-body, oblivious;58;spheal;8;spheal;484;;spheal;ice, water;395;365;365;70;40;50;55;50;25
+364;thick-fat, ice-body, oblivious;144;sealeo;11;sealeo;485;;sealeo;ice, water;876;365;365;90;60;70;75;70;45
+365;thick-fat, ice-body, oblivious;265;walrein;14;walrein;486;;walrein;ice, water;1506;365;365;110;80;90;95;90;65
+366;shell-armor, rattled;69;clamperl;4;clamperl;487;;clamperl;water;525;366;847;35;64;85;74;55;32
+367;swift-swim, water-veil;170;huntail;17;huntail;488;;huntail;water;270;419;847;55;104;105;94;75;52
+368;swift-swim, hydration;170;gorebyss;18;gorebyss;489;;gorebyss;water;226;370;847;55;84;105;114;75;52
+369;swift-swim, rock-head, sturdy;170;relicanth;10;relicanth;490;;relicanth;water, rock;234;369;834;100;90;130;45;65;55
+370;swift-swim, hydration;116;luvdisc;6;luvdisc;491;;luvdisc;water;87;370;847;43;30;55;40;65;97
+371;rock-head, sheer-force;60;bagon;6;bagon;492;;bagon;dragon;421;371;895;45;75;60;40;30;50
+372;rock-head, overcoat;147;shelgon;11;shelgon;493;;shelgon;dragon;1105;372;895;65;95;100;60;50;50
+373;intimidate, moxie;300;salamence;15;salamence;494;;salamence;dragon, flying;1026;373;384;95;135;80;110;80;100
+374;clear-body, light-metal;60;beldum;6;beldum;496;;beldum;steel, psychic;952;379;437;40;55;80;35;60;30
+375;clear-body, light-metal;147;metang;12;metang;497;;metang;steel, psychic;2025;379;437;60;75;100;55;80;50
+376;clear-body, light-metal;300;metagross;16;metagross;498;;metagross;steel, psychic;5500;379;437;80;135;130;95;90;70
+377;clear-body, sturdy;290;regirock;17;regirock;500;;regirock;rock;2300;703;874;80;100;200;50;100;50
+378;clear-body, ice-body;290;regice;18;regice;501;;regice;ice;1750;378;896;80;50;100;100;200;50
+379;clear-body, light-metal;290;registeel;19;registeel;502;;registeel;steel;2050;379;879;80;75;150;75;150;50
+380;levitate;300;latias;14;latias;503;;latias;dragon, psychic;400;738;381;80;80;90;110;130;110
+381;levitate;300;latios;20;latios;505;;latios;dragon, psychic;600;738;381;80;90;80;130;110;110
+382;drizzle;335;kyogre;45;kyogre;507;;kyogre;water;3520;382;847;100;100;90;150;140;90
+383;drought;335;groudon;35;groudon;509;;groudon;ground;9500;383;844;100;150;140;100;90;90
+384;air-lock;340;rayquaza;70;rayquaza;511;;rayquaza;dragon, flying;2065;384;384;105;150;90;150;90;95
+385;serene-grace;300;jirachi;3;jirachi;513;;jirachi;steel, psychic;11;648;437;100;100;100;100;100;100
+386;pressure;270;deoxys-normal;17;deoxys-normal;514;;deoxys;psychic;608;890;857;50;150;50;150;50;150
+387;overgrow, shell-armor;64;turtwig;4;turtwig;518;;turtwig;grass;102;389;830;55;68;64;45;55;31
+388;overgrow, shell-armor;142;grotle;11;grotle;519;;grotle;grass;970;389;830;75;89;85;55;65;36
+389;overgrow, shell-armor;236;torterra;22;torterra;520;;torterra;grass, ground;3100;389;389;95;109;105;75;85;56
+390;blaze, iron-fist;62;chimchar;5;chimchar;521;;chimchar;fire;62;392;815;44;58;44;58;44;61
+391;blaze, iron-fist;142;monferno;9;monferno;522;;monferno;fire, fighting;220;392;500;64;78;52;78;52;81
+392;blaze, iron-fist;240;infernape;12;infernape;523;;infernape;fire, fighting;550;392;500;76;104;71;104;71;108
+393;torrent, defiant;63;piplup;4;piplup;524;;piplup;water;52;395;847;53;51;53;61;56;40
+394;torrent, defiant;142;prinplup;8;prinplup;525;;prinplup;water;230;395;847;64;66;68;81;76;50
+395;torrent, defiant;239;empoleon;17;empoleon;526;;empoleon;water, steel;845;395;395;84;86;88;111;101;60
+396;keen-eye, reckless;49;starly;3;starly;527;;starly;normal, flying;20;396;733;40;55;30;30;30;60
+397;intimidate, reckless;119;staravia;6;staravia;528;;staravia;normal, flying;155;398;733;55;75;50;40;40;80
+398;intimidate, reckless;218;staraptor;12;staraptor;529;;staraptor;normal, flying;249;398;733;85;120;70;50;60;100
+399;simple, unaware, moody;50;bidoof;5;bidoof;530;;bidoof;normal;200;400;832;59;45;40;35;40;31
+400;simple, unaware, moody;144;bibarel;10;bibarel;531;;bibarel;normal, water;315;400;400;79;85;60;55;60;71
+401;shed-skin, run-away;39;kricketot;3;kricketot;532;;kricketot;bug;22;401;824;37;25;41;25;41;25
+402;swarm, technician;134;kricketune;10;kricketune;533;;kricketune;bug;255;402;824;77;85;51;55;51;65
+403;rivalry, intimidate, guts;53;shinx;5;shinx;534;;shinx;electric;95;405;894;45;65;34;40;34;45
+404;rivalry, intimidate, guts;127;luxio;9;luxio;535;;luxio;electric;305;405;894;60;85;49;60;49;60
+405;rivalry, intimidate, guts;262;luxray;14;luxray;536;;luxray;electric;420;405;894;80;120;79;95;79;70
+406;natural-cure, poison-point, ;56;budew;2;budew;423;;budew;grass, poison;12;407;591;40;30;35;50;70;55
+407;natural-cure, poison-point, ;258;roserade;9;roserade;425;;roserade;grass, poison;145;407;591;60;70;65;125;105;90
+408;mold-breaker, sheer-force;70;cranidos;9;cranidos;537;;cranidos;rock;315;409;874;67;125;40;30;30;58
+409;mold-breaker, sheer-force;173;rampardos;16;rampardos;538;;rampardos;rock;1025;409;874;97;165;60;65;50;58
+410;sturdy, soundproof;70;shieldon;5;shieldon;539;;shieldon;rock, steel;570;411;805;30;42;118;42;88;30
+411;sturdy, soundproof;173;bastiodon;13;bastiodon;540;;bastiodon;rock, steel;1495;411;805;60;52;168;47;138;30
+412;shed-skin, overcoat;45;burmy-plant, burmy-sandy, burmy-trash;2;burmy;541;;burmy;bug;34;412;824;40;29;45;29;45;36
+413;anticipation, overcoat;148;wormadam-plant;5;wormadam-plant;542;;wormadam;bug, grass;65;413;542;60;59;85;79;105;36
+414;swarm, tinted-lens;148;mothim-plant, mothim-sandy, mothim-trash;9;mothim;545;;mothim;bug, flying;233;414;666;70;94;50;94;50;66
+415;honey-gather, hustle;49;combee;3;combee;546;;combee;bug, flying;55;415;666;30;30;42;30;42;70
+416;pressure, unnerve;166;vespiquen;12;vespiquen;547;;vespiquen;bug, flying;385;416;666;70;80;102;80;102;40
+417;run-away, pickup, volt-absorb;142;pachirisu;4;pachirisu;548;;pachirisu;electric;39;417;894;60;45;70;45;90;95
+418;swift-swim, water-veil;66;buizel;7;buizel;549;;buizel;water;295;419;847;55;65;35;60;30;85
+419;swift-swim, water-veil;173;floatzel;11;floatzel;550;;floatzel;water;335;419;847;85;105;55;85;50;115
+420;chlorophyll;55;cherubi;4;cherubi;551;;cherubi;grass;33;420;830;45;35;45;62;53;35
+421;flower-gift;158;cherrim-overcast, cherrim-sunshine;5;cherrim;552;;cherrim;grass;93;421;830;70;60;70;87;78;85
+422;sticky-hold, storm-drain, ;65;shellos-west, shellos-east;3;shellos;553;;shellos;water;63;423;847;76;48;48;57;62;34
+423;sticky-hold, storm-drain, ;166;gastrodon-west, gastrodon-east;9;gastrodon;554;;gastrodon;water, ground;299;423;537;111;83;68;92;82;39
+424;technician, pickup, skill-link;169;ambipom;12;ambipom;286;;ambipom;normal;203;424;832;75;100;66;60;66;115
+425;aftermath, unburden, flare-boost;70;drifloon;4;drifloon;555;;drifloon;ghost, flying;12;426;426;90;50;34;60;44;70
+426;aftermath, unburden, flare-boost;174;drifblim;12;drifblim;556;;drifblim;ghost, flying;150;426;426;150;80;44;90;54;80
+427;run-away, klutz, limber;70;buneary;4;buneary;557;;buneary;normal;55;427;832;55;66;44;44;56;85
+428;cute-charm, klutz, limber;168;lopunny;12;lopunny;558;;lopunny;normal;333;428;832;65;76;84;54;96;105
+429;levitate;173;mismagius;9;mismagius;296;;mismagius;ghost;44;738;897;60;60;60;105;105;105
+430;insomnia, super-luck, moxie;177;honchkrow;9;honchkrow;294;;honchkrow;dark, flying;273;430;717;100;125;52;105;52;71
+431;limber, own-tempo, keen-eye;62;glameow;5;glameow;560;;glameow;normal;39;431;832;49;55;42;42;37;85
+432;thick-fat, own-tempo, defiant;158;purugly;10;purugly;561;;purugly;normal;438;432;832;71;82;64;64;59;112
+433;levitate;57;chingling;2;chingling;476;;chingling;psychic;6;738;857;45;30;50;65;50;45
+434;stench, aftermath, keen-eye;66;stunky;4;stunky;562;;stunky;poison, dark;192;435;452;63;63;47;41;41;74
+435;stench, aftermath, keen-eye;168;skuntank;10;skuntank;563;;skuntank;poison, dark;380;435;452;103;93;67;71;61;84
+436;levitate, heatproof, heavy-metal;60;bronzor;5;bronzor;564;;bronzor;steel, psychic;605;437;437;57;24;86;24;86;23
+437;levitate, heatproof, heavy-metal;175;bronzong;13;bronzong;565;;bronzong;steel, psychic;1870;437;437;67;89;116;79;116;33
+438;sturdy, rock-head, rattled;58;bonsly;5;bonsly;280;;bonsly;rock;150;438;874;50;80;95;10;45;10
+439;soundproof, filter, technician;62;mime-jr;6;mime-jr;193;generation-v, psychic;mime-jr;psychic, fairy;130;439;858;20;25;45;70;90;60
+440;natural-cure, serene-grace, ;110;happiny;6;happiny;179;;happiny;normal;244;440;832;100;5;5;15;65;30
+441;keen-eye, tangled-feet, big-pecks;144;chatot;5;chatot;566;;chatot;normal, flying;19;441;733;76;65;45;92;42;91
+442;pressure, infiltrator;170;spiritomb;10;spiritomb;567;;spiritomb;ghost, dark;1080;442;442;50;92;108;92;108;35
+443;sand-veil, rough-skin;60;gible;7;gible;568;;gible;dragon, ground;205;445;718;58;70;45;40;45;42
+444;sand-veil, rough-skin;144;gabite;14;gabite;569;;gabite;dragon, ground;560;445;718;68;90;65;50;55;82
+445;sand-veil, rough-skin;300;garchomp;19;garchomp;570;;garchomp;dragon, ground;950;445;718;108;130;95;80;85;102
+446;pickup, thick-fat, gluttony;78;munchlax;6;munchlax;234;;munchlax;normal;1050;446;832;135;85;40;40;85;5
+447;steadfast, inner-focus, prankster;57;riolu;7;riolu;572;;riolu;fighting;202;447;891;40;70;40;35;40;60
+448;steadfast, inner-focus, justified;184;lucario;12;lucario;573;;lucario;fighting, steel;540;448;448;70;110;70;115;70;90
+449;sand-stream, sand-force;66;hippopotas;8;hippopotas;575;;hippopotas;ground;495;450;844;68;72;78;38;42;32
+450;sand-stream, sand-force;184;hippowdon;20;hippowdon;576;;hippowdon;ground;3000;450;844;108;112;118;68;72;47
+451;battle-armor, sniper, keen-eye;66;skorupi;8;skorupi;577;;skorupi;poison, bug;120;452;451;40;50;90;30;55;65
+452;battle-armor, sniper, keen-eye;175;drapion;13;drapion;578;;drapion;poison, dark;615;452;452;70;90;110;60;75;95
+453;anticipation, dry-skin, poison-touch;60;croagunk;7;croagunk;579;;croagunk;poison, fighting;230;454;454;48;61;40;61;40;50
+454;anticipation, dry-skin, poison-touch;172;toxicroak;13;toxicroak;580;;toxicroak;poison, fighting;444;454;454;83;106;65;86;65;85
+455;levitate;159;carnivine;14;carnivine;581;;carnivine;grass;270;738;830;74;100;72;90;72;46
+456;swift-swim, storm-drain, water-veil;66;finneon;4;finneon;582;;finneon;water;70;457;847;49;49;56;49;61;66
+457;swift-swim, storm-drain, water-veil;161;lumineon;12;lumineon;583;;lumineon;water;240;457;847;69;69;76;69;86;91
+458;swift-swim, water-absorb, ;69;mantyke;10;mantyke;326;;mantyke;water, flying;650;458;581;45;20;50;60;120;50
+459;snow-warning, soundproof;67;snover;10;snover;584;;snover;grass, ice;505;460;460;60;62;50;62;60;40
+460;snow-warning, soundproof;173;abomasnow;22;abomasnow;585;;abomasnow;grass, ice;1355;460;460;90;92;75;92;85;60
+461;pressure, pickpocket;179;weavile;11;weavile;313;;weavile;dark, ice;340;461;461;70;120;65;45;85;125
+462;magnet-pull, sturdy, analytic;268;magnezone;12;magnezone;134;;magnezone;electric, steel;1800;462;777;70;70;115;130;90;60
+463;own-tempo, oblivious, cloud-nine;180;lickilicky;17;lickilicky;172;;lickilicky;normal;1400;463;832;110;85;95;80;95;50
+464;lightning-rod, solid-rock, ;268;rhyperior;24;rhyperior;178;;rhyperior;ground, rock;2828;464;464;115;140;130;55;55;40
+465;chlorophyll, leaf-guard, regenerator;187;tangrowth;20;tangrowth;183;;tangrowth;grass;1286;465;830;100;100;125;110;50;50
+466;motor-drive, vital-spirit;270;electivire;18;electivire;203;;electivire;electric;1386;466;894;75;123;67;95;85;95
+467;flame-body, vital-spirit;270;magmortar;16;magmortar;206;;magmortar;fire;680;467;815;75;95;67;125;95;83
+468;hustle, serene-grace, super-luck;273;togekiss;15;togekiss;270;generation-v, normal, flying;togekiss;fairy, flying;380;468;468;85;50;95;120;115;80
+469;speed-boost, tinted-lens, frisk;180;yanmega;19;yanmega;290;;yanmega;bug, flying;515;469;666;86;76;86;116;56;95
+470;leaf-guard, chlorophyll;184;leafeon;10;leafeon;222;;leafeon;grass;255;470;830;65;110;130;60;65;95
+471;snow-cloak, ice-body;184;glaceon;8;glaceon;223;;glaceon;ice;259;471;896;65;60;110;130;95;65
+472;hyper-cutter, sand-veil, poison-heal;179;gliscor;20;gliscor;305;;gliscor;ground, flying;425;472;645;75;95;125;45;75;95
+473;oblivious, snow-cloak, thick-fat;265;mamoswine;25;mamoswine;320;;mamoswine;ice, ground;2910;473;473;110;130;80;70;60;80
+474;adaptability, download, analytic;268;porygon-z;9;porygon-z;227;;porygon-z;normal;340;474;832;85;80;70;135;75;90
+475;steadfast, justified;259;gallade;16;gallade;384;;gallade;psychic, fighting;520;475;475;68;125;65;65;115;80
+476;sturdy, magnet-pull, sand-force;184;probopass;14;probopass;402;;probopass;rock, steel;3400;476;805;60;55;145;75;150;40
+477;pressure, frisk;263;dusknoir;22;dusknoir;474;;dusknoir;ghost;1066;477;897;45;100;135;65;135;45
+478;snow-cloak, cursed-body;168;froslass;13;froslass;483;;froslass;ice, ghost;266;478;478;70;80;70;80;70;110
+479;levitate;154;rotom;3;rotom;587;;rotom;electric, ghost;3;738;479;50;50;77;95;77;91
+480;levitate;290;uxie;3;uxie;593;;uxie;psychic;3;738;857;75;75;130;75;130;95
+481;levitate;290;mesprit;3;mesprit;594;;mesprit;psychic;3;738;857;80;105;105;105;105;80
+482;levitate;290;azelf;3;azelf;595;;azelf;psychic;3;738;857;75;125;70;125;70;115
+483;pressure, telepathy;340;dialga;54;dialga;596;;dialga;steel, dragon;6830;487;884;100;120;120;150;100;90
+484;pressure, telepathy;340;palkia;42;palkia;597;;palkia;water, dragon;3360;487;882;90;120;100;150;120;100
+485;flash-fire, flame-body;300;heatran;17;heatran;598;;heatran;fire, steel;4300;485;485;91;90;106;130;106;77
+486;slow-start;335;regigigas;37;regigigas;599;;regigigas;normal;4200;486;832;110;160;110;80;110;100
+487;pressure, telepathy;340;giratina-altered;45;giratina-altered;600;;giratina;ghost, dragon;7500;487;487;150;100;120;100;120;90
+488;levitate;300;cresselia;15;cresselia;602;;cresselia;psychic;856;738;857;120;70;120;75;130;85
+489;hydration;216;phione;4;phione;603;;phione;water;31;490;847;80;80;80;80;80;80
+490;hydration;270;manaphy;3;manaphy;604;;manaphy;water;14;490;847;100;100;100;100;100;100
+491;bad-dreams;270;darkrai;15;darkrai;605;;darkrai;dark;505;491;828;70;90;90;135;90;125
+492;natural-cure;270;shaymin-land;2;shaymin-land;606;;shaymin;grass;21;492;830;100;100;100;100;100;100
+493;multitype;324;arceus-normal, arceus-bug, arceus-dark, arceus-dragon, arceus-electric, arceus-fighting, , arceus-fire, arceus-flying, arceus-ghost, arceus-grass, arceus-ground, arceus-ice, , arceus-poison, arceus-psychic, arceus-rock, arceus-steel, arceus-water;32;arceus;608;;arceus;normal;3200;493;832;120;120;120;120;120;120
+494;victory-star;300;victini;4;victini;609;;victini;psychic, fire;40;494;494;100;100;100;100;100;100
+495;overgrow, contrary;62;snivy;6;snivy;610;;snivy;grass;81;497;830;45;45;55;45;55;63
+496;overgrow, contrary;145;servine;8;servine;611;;servine;grass;160;497;830;60;60;75;60;75;83
+497;overgrow, contrary;238;serperior;33;serperior;612;;serperior;grass;630;497;830;75;75;95;75;95;113
+498;blaze, thick-fat;62;tepig;5;tepig;613;;tepig;fire;99;499;815;65;63;45;45;45;45
+499;blaze, thick-fat;146;pignite;10;pignite;614;;pignite;fire, fighting;555;499;500;90;93;55;70;55;55
+500;blaze, reckless;238;emboar;16;emboar;615;;emboar;fire, fighting;1500;500;500;110;123;65;100;65;65
+501;torrent, shell-armor;62;oshawott;5;oshawott;616;;oshawott;water;59;503;847;55;55;45;63;45;45
+502;torrent, shell-armor;145;dewott;8;dewott;617;;dewott;water;245;503;847;75;75;60;83;60;60
+503;torrent, shell-armor;238;samurott;15;samurott;618;;samurott;water;946;503;847;95;100;85;108;70;70
+504;run-away, keen-eye, analytic;51;patrat;5;patrat;619;;patrat;normal;116;504;832;45;55;39;35;39;42
+505;illuminate, keen-eye, analytic;147;watchog;11;watchog;620;;watchog;normal;270;505;832;60;85;69;60;69;77
+506;vital-spirit, pickup, run-away;55;lillipup;4;lillipup;621;;lillipup;normal;41;506;832;45;60;45;25;45;55
+507;intimidate, sand-rush, scrappy;130;herdier;9;herdier;622;;herdier;normal;147;508;832;65;80;65;35;65;60
+508;intimidate, sand-rush, scrappy;250;stoutland;12;stoutland;623;;stoutland;normal;610;508;832;85;110;90;45;90;80
+509;limber, unburden, prankster;56;purrloin;4;purrloin;624;;purrloin;dark;101;510;828;41;50;37;50;37;66
+510;limber, unburden, prankster;156;liepard;11;liepard;625;;liepard;dark;375;510;828;64;88;50;88;50;106
+511;gluttony, overgrow;63;pansage;6;pansage;626;;pansage;grass;105;512;830;50;53;48;53;48;64
+512;gluttony, overgrow;174;simisage;11;simisage;627;;simisage;grass;305;512;830;75;98;63;98;63;101
+513;gluttony, blaze;63;pansear;6;pansear;628;;pansear;fire;110;514;815;50;53;48;53;48;64
+514;gluttony, blaze;174;simisear;10;simisear;629;;simisear;fire;280;514;815;75;98;63;98;63;101
+515;gluttony, torrent;63;panpour;6;panpour;630;;panpour;water;135;516;847;50;53;48;53;48;64
+516;gluttony, torrent;174;simipour;10;simipour;631;;simipour;water;290;516;847;75;98;63;98;63;101
+517;forewarn, synchronize, telepathy;58;munna;6;munna;632;;munna;psychic;233;518;857;76;25;45;67;55;24
+518;forewarn, synchronize, telepathy;170;musharna;11;musharna;633;;musharna;psychic;605;518;857;116;55;85;107;95;29
+519;big-pecks, super-luck, rivalry;53;pidove;3;pidove;634;;pidove;normal, flying;21;521;733;50;55;50;36;30;43
+520;big-pecks, super-luck, rivalry;125;tranquill;6;tranquill;635;;tranquill;normal, flying;150;521;733;62;77;62;50;42;65
+521;big-pecks, super-luck, rivalry;244;unfezant;12;unfezant;636;;unfezant;normal, flying;290;521;733;80;115;80;65;55;93
+522;lightning-rod, motor-drive, ;59;blitzle;8;blitzle;637;;blitzle;electric;298;523;894;45;60;32;50;32;76
+523;lightning-rod, motor-drive, ;174;zebstrika;16;zebstrika;638;;zebstrika;electric;795;523;894;75;100;63;80;63;116
+524;sturdy, weak-armor, sand-force;56;roggenrola;4;roggenrola;639;;roggenrola;rock;180;525;874;55;75;85;25;25;15
+525;sturdy, weak-armor, sand-force;137;boldore;9;boldore;640;;boldore;rock;1020;525;874;70;105;105;50;40;20
+526;sturdy, sand-stream, sand-force;258;gigalith;17;gigalith;641;;gigalith;rock;2600;526;874;85;135;130;60;80;25
+527;unaware, klutz, simple;65;woobat;4;woobat;642;;woobat;psychic, flying;21;528;561;65;45;43;55;43;72
+528;unaware, klutz, simple;149;swoobat;9;swoobat;643;;swoobat;psychic, flying;105;528;561;67;57;55;77;55;114
+529;sand-rush, sand-force, mold-breaker;66;drilbur;3;drilbur;644;;drilbur;ground;85;530;844;60;85;40;30;45;68
+530;sand-rush, sand-force, mold-breaker;178;excadrill;7;excadrill;645;;excadrill;ground, steel;404;530;530;110;135;60;50;65;88
+531;healer, regenerator, klutz;390;audino;11;audino;646;;audino;normal;310;531;832;103;60;86;60;86;50
+532;guts, sheer-force, iron-fist;61;timburr;6;timburr;648;;timburr;fighting;125;534;891;75;80;55;25;35;35
+533;guts, sheer-force, iron-fist;142;gurdurr;12;gurdurr;649;;gurdurr;fighting;400;534;891;85;105;85;40;50;40
+534;guts, sheer-force, iron-fist;253;conkeldurr;14;conkeldurr;650;;conkeldurr;fighting;870;534;891;105;140;95;55;65;45
+535;swift-swim, hydration, water-absorb;59;tympole;5;tympole;651;;tympole;water;45;536;847;50;50;40;50;40;64
+536;swift-swim, hydration, water-absorb;134;palpitoad;8;palpitoad;652;;palpitoad;water, ground;170;536;537;75;65;55;65;55;69
+537;swift-swim, poison-touch, ;255;seismitoad;15;seismitoad;653;;seismitoad;water, ground;620;537;537;105;95;75;85;75;74
+538;guts, inner-focus, mold-breaker;163;throh;13;throh;654;;throh;fighting;555;538;891;120;100;85;30;85;45
+539;sturdy, inner-focus, mold-breaker;163;sawk;14;sawk;655;;sawk;fighting;510;539;891;75;125;75;30;75;85
+540;swarm, chlorophyll, overcoat;62;sewaddle;3;sewaddle;656;;sewaddle;bug, grass;25;542;542;45;53;70;40;60;42
+541;leaf-guard, chlorophyll, ;133;swadloon;5;swadloon;657;;swadloon;bug, grass;73;541;542;55;63;90;50;80;42
+542;swarm, chlorophyll, overcoat;225;leavanny;12;leavanny;658;;leavanny;bug, grass;205;542;542;75;103;80;70;80;92
+543;poison-point, swarm, speed-boost;52;venipede;4;venipede;659;;venipede;bug, poison;53;545;545;30;45;59;30;39;57
+544;poison-point, swarm, speed-boost;126;whirlipede;12;whirlipede;660;;whirlipede;bug, poison;585;545;545;40;55;99;40;79;47
+545;poison-point, swarm, speed-boost;243;scolipede;25;scolipede;661;;scolipede;bug, poison;2005;545;545;60;100;89;55;69;112
+546;prankster, infiltrator, chlorophyll;56;cottonee;3;cottonee;662;generation-v, grass;cottonee;grass, fairy;6;547;787;40;27;60;37;50;66
+547;prankster, infiltrator, chlorophyll;168;whimsicott;7;whimsicott;663;generation-v, grass;whimsicott;grass, fairy;66;547;787;60;67;85;77;75;116
+548;chlorophyll, own-tempo, leaf-guard;56;petilil;5;petilil;664;;petilil;grass;66;549;830;45;35;50;70;50;30
+549;chlorophyll, own-tempo, leaf-guard;168;lilligant;11;lilligant;665;;lilligant;grass;163;549;830;70;60;75;110;75;90
+550;reckless, adaptability, mold-breaker;161;basculin-red-striped;10;basculin-red-striped;666;;basculin;water;180;550;847;70;92;65;80;55;98
+551;intimidate, moxie, anger-point;58;sandile;7;sandile;668;;sandile;ground, dark;152;553;553;50;72;35;35;35;65
+552;intimidate, moxie, anger-point;123;krokorok;10;krokorok;669;;krokorok;ground, dark;334;553;553;60;82;45;45;45;74
+553;intimidate, moxie, anger-point;260;krookodile;15;krookodile;670;;krookodile;ground, dark;963;553;553;95;117;80;65;70;92
+554;hustle, inner-focus;63;darumaka;6;darumaka;671;;darumaka;fire;375;554;815;70;90;45;15;45;50
+555;sheer-force, zen-mode;168;darmanitan-standard;13;darmanitan-standard;673;;darmanitan;fire;929;555;815;105;140;55;30;55;95
+556;water-absorb, chlorophyll, ;161;maractus;10;maractus;677;;maractus;grass;280;556;830;75;86;67;106;67;60
+557;sturdy, shell-armor, weak-armor;65;dwebble;3;dwebble;678;;dwebble;bug, rock;145;558;558;50;65;85;35;35;55
+558;sturdy, shell-armor, weak-armor;170;crustle;14;crustle;679;;crustle;bug, rock;2000;558;558;70;105;125;65;75;45
+559;shed-skin, moxie, intimidate;70;scraggy;6;scraggy;680;;scraggy;dark, fighting;118;560;560;50;75;70;35;70;48
+560;shed-skin, moxie, intimidate;171;scrafty;11;scrafty;681;;scrafty;dark, fighting;300;560;560;65;90;115;45;115;58
+561;wonder-skin, magic-guard, ;172;sigilyph;14;sigilyph;682;;sigilyph;psychic, flying;140;561;561;72;58;80;103;80;97
+562;mummy;61;yamask;5;yamask;683;;yamask;ghost;15;563;897;38;30;85;55;65;30
+563;mummy;169;cofagrigus;17;cofagrigus;685;;cofagrigus;ghost;765;563;897;58;50;145;95;105;30
+564;solid-rock, sturdy, swift-swim;71;tirtouga;7;tirtouga;686;;tirtouga;water, rock;165;565;834;54;78;103;53;45;22
+565;solid-rock, sturdy, swift-swim;173;carracosta;12;carracosta;687;;carracosta;water, rock;810;565;834;74;108;133;83;65;32
+566;defeatist;71;archen;5;archen;688;;archen;rock, flying;95;567;774;55;112;45;74;45;70
+567;defeatist;177;archeops;14;archeops;689;;archeops;rock, flying;320;567;774;75;140;65;112;65;110
+568;stench, sticky-hold, aftermath;66;trubbish;6;trubbish;690;;trubbish;poison;310;568;803;50;50;62;40;62;65
+569;stench, weak-armor, aftermath;166;garbodor;19;garbodor;691;;garbodor;poison;1073;569;803;80;95;82;60;82;75
+570;illusion;66;zorua;7;zorua;692;;zorua;dark;125;571;828;40;65;40;80;40;65
+571;illusion;179;zoroark;16;zoroark;693;;zoroark;dark;811;571;828;60;105;60;120;60;105
+572;cute-charm, technician, skill-link;60;minccino;4;minccino;694;;minccino;normal;58;573;832;55;50;40;40;40;75
+573;cute-charm, technician, skill-link;165;cinccino;5;cinccino;695;;cinccino;normal;75;573;832;75;95;60;65;60;115
+574;frisk, competitive, shadow-tag;58;gothita;4;gothita;696;;gothita;psychic;58;576;857;45;30;50;55;65;45
+575;frisk, competitive, shadow-tag;137;gothorita;7;gothorita;697;;gothorita;psychic;180;576;857;60;45;70;75;85;55
+576;frisk, competitive, shadow-tag;245;gothitelle;15;gothitelle;698;;gothitelle;psychic;440;576;857;70;55;95;95;110;65
+577;overcoat, magic-guard, regenerator;58;solosis;3;solosis;699;;solosis;psychic;10;579;857;45;30;40;105;50;20
+578;overcoat, magic-guard, regenerator;130;duosion;6;duosion;700;;duosion;psychic;80;579;857;65;40;50;125;60;30
+579;overcoat, magic-guard, regenerator;245;reuniclus;10;reuniclus;701;;reuniclus;psychic;201;579;857;110;65;75;125;85;30
+580;keen-eye, big-pecks, hydration;61;ducklett;5;ducklett;702;;ducklett;water, flying;55;581;581;62;44;50;44;50;55
+581;keen-eye, big-pecks, hydration;166;swanna;13;swanna;703;;swanna;water, flying;242;581;581;75;87;63;87;63;98
+582;ice-body, snow-cloak, weak-armor;61;vanillite;4;vanillite;704;;vanillite;ice;57;583;896;36;50;50;65;60;44
+583;ice-body, snow-cloak, weak-armor;138;vanillish;11;vanillish;705;;vanillish;ice;410;583;896;51;65;65;80;75;59
+584;ice-body, snow-warning, weak-armor;268;vanilluxe;13;vanilluxe;706;;vanilluxe;ice;575;584;896;71;95;85;110;95;79
+585;chlorophyll, sap-sipper, serene-grace;67;deerling-spring, deerling-summer, deerling-autumn, deerling-winter;6;deerling;707;;deerling;normal, grass;195;586;586;60;60;50;40;50;75
+586;chlorophyll, sap-sipper, serene-grace;166;sawsbuck-spring, sawsbuck-summer, sawsbuck-autumn, sawsbuck-winter;19;sawsbuck;708;;sawsbuck;normal, grass;925;586;586;80;100;70;60;70;95
+587;static, motor-drive;150;emolga;4;emolga;709;;emolga;electric, flying;50;587;642;55;75;60;75;60;103
+588;swarm, shed-skin, no-guard;63;karrablast;5;karrablast;710;;karrablast;bug;59;588;824;50;75;45;40;45;60
+589;swarm, shell-armor, overcoat;173;escavalier;10;escavalier;711;;escavalier;bug, steel;330;589;649;70;135;105;60;105;20
+590;effect-spore, regenerator;59;foongus;2;foongus;712;;foongus;grass, poison;10;591;591;69;55;45;55;55;15
+591;effect-spore, regenerator;162;amoonguss;6;amoonguss;713;;amoonguss;grass, poison;105;591;591;114;85;70;85;80;30
+592;water-absorb, cursed-body, ;67;frillish;12;frillish;714;;frillish;water, ghost;330;593;593;55;40;50;65;85;40
+593;water-absorb, cursed-body, ;168;jellicent;22;jellicent;715;;jellicent;water, ghost;1350;593;593;100;60;70;85;105;60
+594;healer, hydration, regenerator;165;alomomola;12;alomomola;716;;alomomola;water;316;594;847;165;75;80;40;45;65
+595;compound-eyes, unnerve, swarm;64;joltik;1;joltik;717;;joltik;bug, electric;6;596;738;50;47;50;57;50;65
+596;compound-eyes, unnerve, swarm;165;galvantula;8;galvantula;718;;galvantula;bug, electric;143;596;738;70;77;60;97;60;108
+597;iron-barbs;61;ferroseed;6;ferroseed;719;;ferroseed;grass, steel;188;597;798;44;50;91;24;86;10
+598;iron-barbs, anticipation;171;ferrothorn;10;ferrothorn;720;;ferrothorn;grass, steel;1100;598;798;74;94;131;54;116;20
+599;plus, minus, clear-body;60;klink;3;klink;721;;klink;steel;210;601;879;40;55;70;45;60;30
+600;plus, minus, clear-body;154;klang;6;klang;722;;klang;steel;510;601;879;60;80;95;70;85;50
+601;plus, minus, clear-body;260;klinklang;6;klinklang;723;;klinklang;steel;810;601;879;60;100;115;70;85;90
+602;levitate;55;tynamo;2;tynamo;724;;tynamo;electric;3;738;894;35;55;40;45;40;60
+603;levitate;142;eelektrik;12;eelektrik;725;;eelektrik;electric;220;738;894;65;85;70;75;70;40
+604;levitate;232;eelektross;21;eelektross;726;;eelektross;electric;805;738;894;85;115;80;105;80;50
+605;telepathy, synchronize, analytic;67;elgyem;5;elgyem;727;;elgyem;psychic;90;606;857;55;55;55;85;55;30
+606;telepathy, synchronize, analytic;170;beheeyem;10;beheeyem;728;;beheeyem;psychic;345;606;857;75;75;75;125;95;40
+607;flash-fire, flame-body, infiltrator;55;litwick;3;litwick;729;;litwick;ghost, fire;31;609;609;50;30;55;65;55;20
+608;flash-fire, flame-body, infiltrator;130;lampent;6;lampent;730;;lampent;ghost, fire;130;609;609;60;40;60;95;60;55
+609;flash-fire, flame-body, infiltrator;260;chandelure;10;chandelure;731;;chandelure;ghost, fire;343;609;609;60;55;90;145;90;80
+610;rivalry, mold-breaker, unnerve;64;axew;6;axew;732;;axew;dragon;180;612;895;46;87;60;30;40;57
+611;rivalry, mold-breaker, unnerve;144;fraxure;10;fraxure;733;;fraxure;dragon;360;612;895;66;117;70;40;50;67
+612;rivalry, mold-breaker, unnerve;270;haxorus;18;haxorus;734;;haxorus;dragon;1055;612;895;76;147;90;60;70;97
+613;snow-cloak, slush-rush, rattled;61;cubchoo;5;cubchoo;735;;cubchoo;ice;85;613;896;55;70;40;60;40;40
+614;snow-cloak, slush-rush, swift-swim;177;beartic;26;beartic;736;;beartic;ice;2600;614;896;95;130;80;70;80;50
+615;levitate;180;cryogonal;11;cryogonal;737;;cryogonal;ice;1480;738;896;80;50;50;95;135;105
+616;hydration, shell-armor, overcoat;61;shelmet;4;shelmet;738;;shelmet;bug;77;616;824;50;40;85;40;65;25
+617;hydration, sticky-hold, unburden;173;accelgor;8;accelgor;739;;accelgor;bug;253;617;824;80;70;40;100;60;145
+618;static, limber, sand-veil;165;stunfisk;7;stunfisk;740;;stunfisk;ground, electric;110;618;618;109;66;84;81;99;32
+619;inner-focus, regenerator, ;70;mienfoo;9;mienfoo;742;;mienfoo;fighting;200;620;891;45;85;50;55;50;65
+620;inner-focus, regenerator, ;179;mienshao;14;mienshao;743;;mienshao;fighting;355;620;891;65;125;60;95;60;105
+621;rough-skin, sheer-force, mold-breaker;170;druddigon;16;druddigon;744;;druddigon;dragon;1390;621;895;77;120;90;60;90;48
+622;iron-fist, klutz, no-guard;61;golett;10;golett;745;;golett;ground, ghost;920;623;867;59;74;50;35;50;35
+623;iron-fist, klutz, no-guard;169;golurk;28;golurk;746;;golurk;ground, ghost;3300;623;867;89;124;80;55;80;55
+624;defiant, inner-focus, pressure;68;pawniard;5;pawniard;747;;pawniard;dark, steel;102;625;625;45;85;70;40;40;60
+625;defiant, inner-focus, pressure;172;bisharp;16;bisharp;748;;bisharp;dark, steel;700;625;625;65;125;100;60;70;70
+626;reckless, sap-sipper, soundproof;172;bouffalant;16;bouffalant;749;;bouffalant;normal;946;626;832;95;110;95;40;95;55
+627;keen-eye, sheer-force, hustle;70;rufflet;5;rufflet;750;;rufflet;normal, flying;105;627;733;70;83;50;37;50;60
+628;keen-eye, sheer-force, defiant;179;braviary;15;braviary;751;;braviary;normal, flying;410;628;733;100;123;75;57;75;80
+629;big-pecks, overcoat, weak-armor;74;vullaby;5;vullaby;752;;vullaby;dark, flying;90;630;717;70;55;75;45;65;60
+630;big-pecks, overcoat, weak-armor;179;mandibuzz;12;mandibuzz;753;;mandibuzz;dark, flying;395;630;717;110;65;105;55;95;80
+631;gluttony, flash-fire, white-smoke;169;heatmor;14;heatmor;754;;heatmor;fire;580;631;815;85;97;66;105;66;65
+632;swarm, hustle, truant;169;durant;3;durant;755;;durant;bug, steel;330;632;649;58;109;112;48;48;109
+633;hustle;60;deino;8;deino;756;;deino;dark, dragon;173;634;799;52;65;50;45;50;38
+634;hustle;147;zweilous;14;zweilous;757;;zweilous;dark, dragon;500;634;799;72;85;70;65;70;58
+635;levitate;300;hydreigon;18;hydreigon;758;;hydreigon;dark, dragon;1600;738;799;92;105;90;125;90;98
+636;flame-body, swarm;72;larvesta;11;larvesta;759;;larvesta;bug, fire;288;637;637;55;85;55;50;55;60
+637;flame-body, swarm;275;volcarona;16;volcarona;760;;volcarona;bug, fire;460;637;637;85;60;65;135;105;100
+638;justified;290;cobalion;21;cobalion;761;;cobalion;steel, fighting;2500;647;638;91;90;129;90;72;108
+639;justified;290;terrakion;19;terrakion;762;;terrakion;rock, fighting;2600;647;639;91;129;90;72;90;108
+640;justified;290;virizion;20;virizion;763;;virizion;grass, fighting;2000;647;652;91;90;72;90;129;108
+641;prankster, defiant;290;tornadus-incarnate;15;tornadus-incarnate;764;;tornadus;flying;630;642;822;79;115;70;125;80;111
+642;prankster, defiant;290;thundurus-incarnate;15;thundurus-incarnate;766;;thundurus;electric, flying;610;642;642;79;115;70;125;80;111
+643;turboblaze;340;reshiram;32;reshiram;768;;reshiram;dragon, fire;3300;643;643;100;120;100;150;120;90
+644;teravolt;340;zekrom;29;zekrom;769;;zekrom;dragon, electric;3450;644;644;100;150;120;120;100;90
+645;sand-force, sheer-force;300;landorus-incarnate;15;landorus-incarnate;770;;landorus;ground, flying;680;645;645;89;125;90;115;80;101
+646;pressure;330;kyurem;30;kyurem;772;;kyurem;dragon, ice;3250;890;646;125;130;90;130;90;95
+647;justified;290;keldeo-ordinary;14;keldeo-ordinary;775;;keldeo;water, fighting;485;647;647;91;72;90;129;90;108
+648;serene-grace;270;meloetta-aria;6;meloetta-aria;777;;meloetta;normal, psychic;65;648;765;100;77;77;128;128;90
+649;download;300;genesect, genesect-douse, genesect-shock, genesect-burn, genesect-chill;15;genesect;779;;genesect;bug, steel;825;649;649;71;120;95;120;95;99
+650;overgrow, bulletproof;63;chespin;4;chespin;780;;chespin;grass;90;652;830;56;61;65;48;45;38
+651;overgrow, bulletproof;142;quilladin;7;quilladin;781;;quilladin;grass;290;652;830;61;78;95;56;58;57
+652;overgrow, bulletproof;239;chesnaught;16;chesnaught;782;;chesnaught;grass, fighting;900;652;652;88;107;122;74;75;64
+653;blaze, magician;61;fennekin;4;fennekin;783;;fennekin;fire;94;655;815;40;45;40;62;60;60
+654;blaze, magician;143;braixen;10;braixen;784;;braixen;fire;145;655;815;59;59;58;90;70;73
+655;blaze, magician;240;delphox;15;delphox;785;;delphox;fire, psychic;390;655;655;75;69;72;114;100;104
+656;torrent, protean;63;froakie;3;froakie;786;;froakie;water;70;658;847;41;56;40;62;44;71
+657;torrent, protean;142;frogadier;6;frogadier;787;;frogadier;water;109;658;847;54;63;52;83;56;97
+658;torrent, protean;239;greninja;15;greninja;788;;greninja;water, dark;400;658;658;72;95;67;103;71;122
+659;pickup, cheek-pouch, huge-power;47;bunnelby;4;bunnelby;791;;bunnelby;normal;50;660;832;38;36;38;32;36;57
+660;pickup, cheek-pouch, huge-power;148;diggersby;10;diggersby;792;;diggersby;normal, ground;424;660;660;85;56;77;50;77;78
+661;big-pecks, gale-wings;56;fletchling;3;fletchling;793;;fletchling;normal, flying;17;661;733;45;50;43;40;38;62
+662;flame-body, gale-wings;134;fletchinder;7;fletchinder;794;;fletchinder;fire, flying;160;663;741;62;73;55;56;52;84
+663;flame-body, gale-wings;175;talonflame;12;talonflame;795;;talonflame;fire, flying;245;663;741;78;81;71;74;69;126
+664;shield-dust, compound-eyes, ;40;scatterbug-icy-snow, scatterbug-polar, scatterbug-tundra, scatterbug-continental, , scatterbug-garden, scatterbug-elegant, scatterbug-meadow, scatterbug-modern, , scatterbug-marine, scatterbug-archipelago, scatterbug-high-plains, scatterbug-sandstorm, , scatterbug-river, scatterbug-monsoon, scatterbug-savanna, scatterbug-sun, ;3;scatterbug;796;;scatterbug;bug;25;666;824;38;35;40;27;25;35
+665;shed-skin, friend-guard;75;spewpa-icy-snow, spewpa-polar, spewpa-tundra, spewpa-continental, spewpa-garden, spewpa-elegant, spewpa-elegant, spewpa-meadow, spewpa-modern, spewpa-marine, spewpa-archipelago, , spewpa-high-plains, spewpa-sandstorm, spewpa-river, spewpa-monsoon, spewpa-savanna, , spewpa-sun, spewpa-ocean;3;spewpa;797;;spewpa;bug;84;665;824;45;22;60;27;30;29
+666;shield-dust, compound-eyes, ;185;vivillon-meadow, vivillon-icy-snow, vivillon-polar, vivillon-tundra, vivillon-continental, , vivillon-garden, vivillon-elegant, vivillon-modern, vivillon-marine, , vivillon-archipelago, vivillon-high-plains, vivillon-sandstorm, vivillon-river, , vivillon-monsoon, vivillon-savanna, vivillon-sun, vivillon-ocean;12;vivillon;798;;vivillon;bug, flying;170;666;666;80;52;50;90;50;89
+667;rivalry, unnerve, moxie;74;litleo;6;litleo;799;;litleo;fire, normal;135;668;668;62;50;58;73;54;72
+668;rivalry, unnerve, moxie;177;pyroar;15;pyroar;800;;pyroar;fire, normal;815;668;668;86;68;72;109;66;106
+669;flower-veil, symbiosis;61;flabebe-red, flabebe-yellow, flabebe-orange, flabebe-blue, flabebe-white;1;flabebe;801;;flabebe;fairy;1;671;888;44;38;39;61;79;42
+670;flower-veil, symbiosis;130;floette-red, floette-yellow, floette-orange, floette-blue, floette-white;2;floette;802;;floette;fairy;9;671;888;54;45;47;75;98;52
+671;flower-veil, symbiosis;248;florges-red, florges-yellow, florges-orange, florges-blue, florges-white;11;florges;804;;florges;fairy;100;671;888;78;65;68;112;154;75
+672;sap-sipper, grass-pelt;70;skiddo;9;skiddo;805;;skiddo;grass;310;673;830;66;65;48;62;57;52
+673;sap-sipper, grass-pelt;186;gogoat;17;gogoat;806;;gogoat;grass;910;673;830;123;100;62;97;81;68
+674;iron-fist, mold-breaker, scrappy;70;pancham;6;pancham;807;;pancham;fighting;80;675;891;67;82;62;46;48;43
+675;iron-fist, mold-breaker, scrappy;173;pangoro;21;pangoro;808;;pangoro;fighting, dark;1360;675;892;95;124;78;69;71;58
+676;fur-coat;165;furfrou-natural, furfrou-heart, furfrou-star, furfrou-diamond, furfrou-debutante, , furfrou-matron, furfrou-dandy, furfrou-la-reine, furfrou-kabuki;12;furfrou;809;;furfrou;normal;280;676;832;75;80;60;65;90;102
+677;keen-eye, infiltrator, own-tempo;71;espurr;3;espurr;810;;espurr;psychic;35;677;857;62;48;54;63;60;68
+678;keen-eye, infiltrator, prankster;163;meowstic-male;6;meowstic-male;811;;meowstic;psychic;85;678;857;74;48;76;83;81;104
+679;no-guard;65;honedge;8;honedge;813;;honedge;steel, ghost;20;680;681;45;80;100;35;37;28
+680;no-guard;157;doublade;8;doublade;814;;doublade;steel, ghost;45;680;681;59;110;150;45;49;35
+681;stance-change;250;aegislash-shield;17;aegislash-shield;815;;aegislash;steel, ghost;530;681;681;60;50;140;50;140;60
+682;healer, aroma-veil;68;spritzee;2;spritzee;817;;spritzee;fairy;5;683;888;78;52;60;63;65;23
+683;healer, aroma-veil;162;aromatisse;8;aromatisse;818;;aromatisse;fairy;155;683;888;101;72;72;99;89;29
+684;sweet-veil, unburden;68;swirlix;4;swirlix;819;;swirlix;fairy;35;685;888;62;48;66;59;57;49
+685;sweet-veil, unburden;168;slurpuff;8;slurpuff;820;;slurpuff;fairy;50;685;888;82;80;86;85;75;72
+686;contrary, suction-cups, infiltrator;58;inkay;4;inkay;821;;inkay;dark, psychic;35;687;687;53;54;53;37;46;45
+687;contrary, suction-cups, infiltrator;169;malamar;15;malamar;822;;malamar;dark, psychic;470;687;687;86;92;88;68;75;73
+688;tough-claws, sniper, pickpocket;61;binacle;5;binacle;823;;binacle;rock, water;310;689;689;42;52;67;39;56;50
+689;tough-claws, sniper, pickpocket;175;barbaracle;13;barbaracle;824;;barbaracle;rock, water;960;689;689;72;105;115;54;86;68
+690;poison-point, poison-touch, ;64;skrelp;5;skrelp;825;;skrelp;poison, water;73;691;748;50;60;60;60;60;30
+691;poison-point, poison-touch, ;173;dragalge;18;dragalge;826;;dragalge;poison, dragon;815;691;890;65;75;90;97;123;44
+692;mega-launcher;66;clauncher;5;clauncher;827;;clauncher;water;83;693;847;50;53;62;58;63;44
+693;mega-launcher;100;clawitzer;13;clawitzer;828;;clawitzer;water;353;693;847;71;73;88;120;89;59
+694;dry-skin, sand-veil, solar-power;58;helioptile;5;helioptile;829;;helioptile;electric, normal;60;695;695;44;38;33;61;43;70
+695;dry-skin, sand-veil, solar-power;168;heliolisk;10;heliolisk;830;;heliolisk;electric, normal;210;695;695;62;55;52;109;94;109
+696;strong-jaw, sturdy;72;tyrunt;8;tyrunt;831;;tyrunt;rock, dragon;260;696;697;58;89;77;45;45;48
+697;strong-jaw, rock-head;182;tyrantrum;25;tyrantrum;832;;tyrantrum;rock, dragon;2700;697;697;82;121;119;69;59;71
+698;refrigerate, snow-warning;72;amaura;13;amaura;833;;amaura;rock, ice;252;699;699;77;59;50;67;63;46
+699;refrigerate, snow-warning;104;aurorus;27;aurorus;834;;aurorus;rock, ice;2250;699;699;123;77;72;99;92;58
+700;cute-charm, pixilate;184;sylveon;10;sylveon;224;;sylveon;fairy;235;700;888;95;65;65;110;130;60
+701;limber, unburden, mold-breaker;175;hawlucha;8;hawlucha;835;;hawlucha;fighting, flying;215;701;701;78;92;75;74;63;118
+702;cheek-pouch, pickup, plus;151;dedenne;2;dedenne;836;;dedenne;electric, fairy;22;702;785;67;58;57;81;67;101
+703;clear-body, sturdy;100;carbink;3;carbink;837;;carbink;rock, fairy;57;703;719;50;50;150;50;150;50
+704;sap-sipper, hydration, gooey;60;goomy;3;goomy;838;;goomy;dragon;28;706;895;45;50;35;55;75;40
+705;sap-sipper, hydration, gooey;158;sliggoo;8;sliggoo;839;;sliggoo;dragon;175;706;895;68;75;53;83;113;60
+706;sap-sipper, hydration, gooey;300;goodra;20;goodra;840;;goodra;dragon;1505;706;895;90;100;70;110;150;80
+707;prankster, magician;165;klefki;2;klefki;841;;klefki;steel, fairy;30;707;801;57;80;91;80;87;75
+708;natural-cure, frisk, harvest;62;phantump;4;phantump;842;;phantump;ghost, grass;70;709;781;43;70;48;50;60;38
+709;natural-cure, frisk, harvest;166;trevenant;15;trevenant;843;;trevenant;ghost, grass;710;709;781;85;110;76;65;82;56
+710;pickup, frisk, insomnia;67;pumpkaboo-average;4;pumpkaboo-average;844;;pumpkaboo;ghost, grass;50;711;781;49;66;70;44;55;51
+711;pickup, frisk, insomnia;173;gourgeist-average;9;gourgeist-average;848;;gourgeist;ghost, grass;125;711;781;65;90;122;58;75;84
+712;own-tempo, ice-body, sturdy;61;bergmite;10;bergmite;852;;bergmite;ice;995;713;896;55;69;85;32;35;28
+713;own-tempo, ice-body, sturdy;180;avalugg;20;avalugg;853;;avalugg;ice;5050;713;896;95;117;184;44;46;28
+714;frisk, infiltrator, telepathy;49;noibat;5;noibat;854;;noibat;flying, dragon;80;715;715;40;30;35;45;40;55
+715;frisk, infiltrator, telepathy;187;noivern;15;noivern;855;;noivern;flying, dragon;850;715;715;85;70;80;97;80;123
+716;fairy-aura;340;xerneas-active, xerneas-neutral;30;xerneas;856;;xerneas;fairy;2150;716;888;126;131;95;131;98;99
+717;dark-aura;340;yveltal;58;yveltal;857;;yveltal;dark, flying;2030;717;717;126;131;95;131;98;99
+718;aura-break;300;zygarde-50;50;zygarde-50;858;;zygarde;dragon, ground;3050;718;718;108;100;121;81;95;95
+719;clear-body;300;diancie;7;diancie;863;;diancie;rock, fairy;88;719;719;50;100;150;100;150;50
+720;magician;270;hoopa;5;hoopa;865;;hoopa;psychic, ghost;90;720;792;80;110;60;150;130;70
+721;water-absorb;300;volcanion;17;volcanion;867;;volcanion;fire, water;1950;721;721;80;110;120;130;90;70
+722;overgrow, long-reach;64;rowlet;3;rowlet;868;;rowlet;grass, flying;15;724;723;68;55;55;50;50;42
+723;overgrow, long-reach;147;dartrix;7;dartrix;869;;dartrix;grass, flying;160;724;723;78;75;75;70;70;52
+724;overgrow, long-reach;265;decidueye;16;decidueye;870;;decidueye;grass, ghost;366;724;724;78;107;75;100;100;70
+725;blaze, intimidate;64;litten;4;litten;871;;litten;fire;43;727;815;45;65;40;60;40;70
+726;blaze, intimidate;147;torracat;7;torracat;872;;torracat;fire;250;727;815;65;85;50;80;50;90
+727;blaze, intimidate;265;incineroar;18;incineroar;873;;incineroar;fire, dark;830;727;727;95;115;90;80;90;60
+728;torrent, liquid-voice;64;popplio;4;popplio;874;;popplio;water;75;730;847;50;54;54;66;56;40
+729;torrent, liquid-voice;147;brionne;6;brionne;875;;brionne;water;175;730;847;60;69;69;91;81;50
+730;torrent, liquid-voice;265;primarina;18;primarina;876;;primarina;water, fairy;440;730;788;80;74;74;126;116;60
+731;keen-eye, skill-link, pickup;53;pikipek;3;pikipek;877;;pikipek;normal, flying;12;732;733;35;75;30;30;30;65
+732;keen-eye, skill-link, pickup;124;trumbeak;6;trumbeak;878;;trumbeak;normal, flying;148;732;733;55;85;50;40;50;75
+733;keen-eye, skill-link, sheer-force;218;toucannon;11;toucannon;879;;toucannon;normal, flying;260;733;733;80;120;75;75;75;60
+734;stakeout, strong-jaw, adaptability;51;yungoos;4;yungoos;880;;yungoos;normal;60;735;832;48;70;30;30;30;45
+735;stakeout, strong-jaw, adaptability;146;gumshoos;7;gumshoos;881;;gumshoos;normal;142;735;832;88;110;60;55;60;45
+736;swarm;60;grubbin;4;grubbin;883;;grubbin;bug;44;736;824;47;62;45;55;45;46
+737;battery;140;charjabug;5;charjabug;884;;charjabug;bug, electric;105;737;738;57;82;95;55;75;36
+738;levitate;250;vikavolt;15;vikavolt;885;;vikavolt;bug, electric;450;738;738;77;70;90;145;75;43
+739;hyper-cutter, iron-fist, anger-point;68;crabrawler;6;crabrawler;887;;crabrawler;fighting;70;740;891;47;82;57;42;47;63
+740;hyper-cutter, iron-fist, anger-point;167;crabominable;17;crabominable;888;;crabominable;fighting, ice;1800;740;740;97;132;77;62;67;43
+741;dancer;167;oricorio-baile;6;oricorio-baile;889;;oricorio;fire, flying;34;741;741;75;70;70;98;70;93
+742;honey-gather, shield-dust, ;61;cutiefly;1;cutiefly;893;;cutiefly;bug, fairy;2;743;743;40;45;40;55;40;84
+743;honey-gather, shield-dust, ;162;ribombee;2;ribombee;894;;ribombee;bug, fairy;5;743;743;60;55;60;95;70;124
+744;keen-eye, vital-spirit, steadfast;56;rockruff;5;rockruff;896;;rockruff;rock;92;744;874;45;65;40;30;40;60
+745;keen-eye, sand-rush, steadfast;170;lycanroc-midday;8;lycanroc-midday;898;;lycanroc;rock;250;745;874;75;115;65;55;65;112
+746;schooling;61;wishiwashi-solo;2;wishiwashi-solo;901;;wishiwashi;water;3;746;847;45;20;20;25;25;40
+747;merciless, limber, regenerator;61;mareanie;4;mareanie;903;;mareanie;poison, water;80;748;748;50;53;62;43;52;45
+748;merciless, limber, regenerator;173;toxapex;7;toxapex;904;;toxapex;poison, water;145;748;748;50;63;152;53;142;35
+749;own-tempo, stamina, inner-focus;77;mudbray;10;mudbray;905;;mudbray;ground;1100;750;844;70;100;70;45;55;45
+750;own-tempo, stamina, inner-focus;175;mudsdale;25;mudsdale;906;;mudsdale;ground;9200;750;844;100;125;100;55;85;35
+751;water-bubble, water-absorb;54;dewpider;3;dewpider;907;;dewpider;water, bug;40;752;752;38;40;52;40;72;27
+752;water-bubble, water-absorb;159;araquanid;18;araquanid;908;;araquanid;water, bug;820;752;752;68;70;92;50;132;42
+753;leaf-guard, contrary;50;fomantis;3;fomantis;910;;fomantis;grass;15;754;830;40;55;35;50;35;35
+754;leaf-guard, contrary;168;lurantis;9;lurantis;911;;lurantis;grass;185;754;830;70;105;90;80;90;45
+755;illuminate, effect-spore, ;57;morelull;2;morelull;913;;morelull;grass, fairy;15;756;787;40;35;55;65;75;15
+756;illuminate, effect-spore, ;142;shiinotic;10;shiinotic;914;;shiinotic;grass, fairy;115;756;787;60;45;80;90;100;30
+757;corrosion, oblivious;64;salandit;6;salandit;915;;salandit;poison, fire;48;758;758;48;44;40;71;40;77
+758;corrosion, oblivious;168;salazzle;12;salazzle;916;;salazzle;poison, fire;222;758;758;68;64;60;111;60;117
+759;fluffy, klutz, cute-charm;68;stufful;5;stufful;918;;stufful;normal, fighting;68;759;760;70;75;50;45;50;50
+760;fluffy, klutz, unnerve;175;bewear;21;bewear;919;;bewear;normal, fighting;1350;760;760;120;125;80;55;60;60
+761;leaf-guard, oblivious, sweet-veil;42;bounsweet;3;bounsweet;920;;bounsweet;grass;32;762;830;42;30;38;30;38;32
+762;leaf-guard, oblivious, sweet-veil;102;steenee;7;steenee;921;;steenee;grass;82;762;830;52;40;48;40;48;62
+763;leaf-guard, queenly-majesty, ;255;tsareena;12;tsareena;922;;tsareena;grass;214;763;830;72;120;98;50;98;72
+764;flower-veil, triage, natural-cure;170;comfey;1;comfey;923;;comfey;fairy;3;764;888;51;52;90;82;110;100
+765;inner-focus, telepathy, symbiosis;172;oranguru;15;oranguru;924;;oranguru;normal, psychic;760;765;765;90;60;80;90;110;60
+766;receiver, defiant;172;passimian;20;passimian;925;;passimian;fighting;828;766;891;100;120;90;40;60;80
+767;wimp-out;46;wimpod;5;wimpod;926;;wimpod;bug, water;120;767;768;25;35;40;20;30;80
+768;emergency-exit;186;golisopod;20;golisopod;927;;golisopod;bug, water;1080;768;768;75;125;140;60;90;40
+769;water-compaction, sand-veil;64;sandygast;5;sandygast;928;;sandygast;ghost, ground;700;770;770;55;55;80;70;45;15
+770;water-compaction, sand-veil;168;palossand;13;palossand;929;;palossand;ghost, ground;2500;770;770;85;75;110;100;75;35
+771;innards-out, unaware;144;pyukumuku;3;pyukumuku;930;;pyukumuku;water;12;771;847;55;60;130;30;130;5
+772;battle-armor;107;type-null;19;type-null;931;;type-null;normal;1205;772;832;95;95;95;95;95;59
+773;rks-system;285;silvally-normal, silvally-fighting, silvally-flying, silvally-poison, silvally-ground, , silvally-rock, silvally-bug, silvally-ghost, silvally-steel, silvally-fire, , silvally-water, silvally-grass, silvally-electric, silvally-psychic, silvally-ice, ;23;silvally;932;;silvally;normal;1005;773;832;95;95;95;95;95;95
+774;shields-down;154;minior-red-meteor;3;minior-red-meteor;933;;minior;rock, flying;400;774;774;60;60;100;60;100;60
+775;comatose;168;komala;4;komala;947;;komala;normal;199;775;832;65;115;65;75;95;65
+776;shell-armor;170;turtonator;20;turtonator;948;;turtonator;fire, dragon;2120;776;776;60;78;135;91;85;36
+777;iron-barbs, lightning-rod, ;152;togedemaru;3;togedemaru;949;;togedemaru;electric, steel;33;777;777;65;98;63;40;73;96
+778;disguise;167;mimikyu-disguised;2;mimikyu-disguised;951;;mimikyu;ghost, fairy;7;778;778;55;90;80;50;105;96
+779;dazzling, strong-jaw, wonder-skin;166;bruxish;9;bruxish;955;;bruxish;water, psychic;190;779;779;68;105;70;70;70;92
+780;berserk, sap-sipper, cloud-nine;170;drampa;30;drampa;956;;drampa;normal, dragon;1850;780;780;78;60;85;135;91;36
+781;steelworker;181;dhelmise;39;dhelmise;957;;dhelmise;ghost, grass;2100;781;781;70;131;100;86;90;40
+782;bulletproof, soundproof, ;60;jangmo-o;6;jangmo-o;958;;jangmo-o;dragon;297;784;895;45;55;65;45;45;45
+783;bulletproof, soundproof, ;147;hakamo-o;12;hakamo-o;959;;hakamo-o;dragon, fighting;470;784;784;55;75;90;65;70;65
+784;bulletproof, soundproof, ;300;kommo-o;16;kommo-o;960;;kommo-o;dragon, fighting;782;784;784;75;110;125;100;105;85
+785;electric-surge, telepathy;285;tapu-koko;18;tapu-koko;962;;tapu-koko;electric, fairy;205;785;785;70;115;85;95;75;130
+786;psychic-surge, telepathy;285;tapu-lele;12;tapu-lele;963;;tapu-lele;psychic, fairy;186;786;858;70;85;75;130;115;95
+787;grassy-surge, telepathy;285;tapu-bulu;19;tapu-bulu;964;;tapu-bulu;grass, fairy;455;787;787;70;130;115;85;95;75
+788;misty-surge, telepathy;285;tapu-fini;13;tapu-fini;965;;tapu-fini;water, fairy;212;788;788;70;75;115;95;130;85
+789;unaware;40;cosmog;2;cosmog;966;;cosmog;psychic;1;789;857;43;29;31;29;31;37
+790;sturdy;140;cosmoem;1;cosmoem;967;;cosmoem;psychic;9999;790;857;43;29;131;29;131;37
+791;full-metal-body;340;solgaleo;34;solgaleo;968;;solgaleo;psychic, steel;2300;791;791;137;137;107;113;89;97
+792;shadow-shield;340;lunala;40;lunala;969;;lunala;psychic, ghost;1200;792;792;137;113;89;137;107;97
+793;beast-boost;285;nihilego;12;nihilego;970;;nihilego;rock, poison;555;806;793;109;53;47;127;131;103
+794;beast-boost;285;buzzwole;24;buzzwole;971;;buzzwole;bug, fighting;3336;806;795;107;139;139;53;53;79
+795;beast-boost;285;pheromosa;18;pheromosa;972;;pheromosa;bug, fighting;250;806;795;71;137;37;137;37;151
+796;beast-boost;285;xurkitree;38;xurkitree;973;;xurkitree;electric;1000;806;894;83;89;71;173;71;83
+797;beast-boost;285;celesteela;92;celesteela;974;;celesteela;steel, flying;9999;806;797;97;101;103;107;101;61
+798;beast-boost;285;kartana;3;kartana;975;;kartana;grass, steel;1;806;798;59;181;131;59;31;109
+799;beast-boost;285;guzzlord;55;guzzlord;976;;guzzlord;dark, dragon;8880;806;799;223;101;53;97;53;43
+800;prism-armor;300;necrozma;24;necrozma;977;;necrozma;psychic;2300;800;857;97;107;101;127;89;79
+801;soul-heart;300;magearna;10;magearna;981;;magearna;steel, fairy;805;801;801;80;95;115;130;115;65
+802;technician;300;marshadow;7;marshadow;983;;marshadow;fighting, ghost;222;802;802;90;125;80;90;90;125
+803;beast-boost;210;poipole;6;poipole;984;;poipole;poison;18;806;803;67;73;67;73;67;73
+804;beast-boost;270;naganadel;36;naganadel;985;;naganadel;poison, dragon;1500;806;890;73;73;73;127;73;121
+805;beast-boost;285;stakataka;55;stakataka;986;;stakataka;rock, steel;8200;806;805;61;131;211;53;101;13
+806;beast-boost;285;blacephalon;18;blacephalon;987;;blacephalon;fire, ghost;130;806;806;53;127;53;151;79;107
+807;volt-absorb;300;zeraora;15;zeraora;988;;zeraora;electric;445;807;894;88;112;75;102;80;143
+808;magnet-pull;150;meltan;2;meltan;989;;meltan;steel;80;808;879;46;65;65;55;35;34
+809;iron-fist;300;melmetal;25;melmetal;990;;melmetal;steel;8000;809;879;135;143;143;80;65;34
+810;overgrow, grassy-surge;62;grookey;3;grookey;991;;grookey;grass;50;812;830;50;65;50;40;40;65
+811;overgrow, grassy-surge;147;thwackey;7;thwackey;992;;thwackey;grass;140;812;830;70;85;70;55;60;80
+812;overgrow, grassy-surge;265;rillaboom;21;rillaboom;993;;rillaboom;grass;900;812;830;100;125;90;60;70;85
+813;blaze, libero;62;scorbunny;3;scorbunny;994;;scorbunny;fire;45;815;815;50;71;40;40;40;69
+814;blaze, libero;147;raboot;6;raboot;995;;raboot;fire;90;815;815;65;86;60;55;60;94
+815;blaze, libero;265;cinderace;14;cinderace;996;;cinderace;fire;330;815;815;80;116;75;65;75;119
+816;torrent, sniper;62;sobble;3;sobble;997;;sobble;water;40;818;847;50;40;40;70;40;70
+817;torrent, sniper;147;drizzile;7;drizzile;998;;drizzile;water;115;818;847;65;60;55;95;55;90
+818;torrent, sniper;265;inteleon;19;inteleon;999;;inteleon;water;452;818;847;70;85;65;125;65;120
+819;cheek-pouch, gluttony;55;skwovet;3;skwovet;1000;;skwovet;normal;25;820;832;70;55;55;35;35;25
+820;cheek-pouch, gluttony;161;greedent;6;greedent;1001;;greedent;normal;60;820;832;120;95;95;55;75;20
+821;keen-eye, unnerve, big-pecks;49;rookidee;2;rookidee;1002;;rookidee;flying;18;822;822;38;47;35;33;35;57
+822;keen-eye, unnerve, big-pecks;128;corvisquire;8;corvisquire;1003;;corvisquire;flying;160;822;822;68;67;55;43;55;77
+823;pressure, unnerve, mirror-armor;248;corviknight;22;corviknight;1004;;corviknight;flying, steel;750;823;823;98;87;105;53;85;67
+824;swarm, compound-eyes, telepathy;36;blipbug;4;blipbug;1005;;blipbug;bug;80;825;824;25;20;20;25;45;45
+825;swarm, compound-eyes, telepathy;117;dottler;4;dottler;1006;;dottler;bug, psychic;195;825;826;50;35;80;50;90;30
+826;swarm, frisk, telepathy;253;orbeetle;4;orbeetle;1007;;orbeetle;bug, psychic;408;826;826;60;45;110;80;120;90
+827;run-away, unburden, stakeout;49;nickit;6;nickit;1008;;nickit;dark;89;828;828;40;28;28;47;52;50
+828;run-away, unburden, stakeout;159;thievul;12;thievul;1009;;thievul;dark;199;828;828;70;58;58;87;92;90
+829;cotton-down, regenerator, ;50;gossifleur;4;gossifleur;1010;;gossifleur;grass;22;830;830;40;40;60;40;60;10
+830;cotton-down, regenerator, ;161;eldegoss;5;eldegoss;1011;;eldegoss;grass;25;830;830;60;50;90;80;120;60
+831;fluffy, run-away, bulletproof;122;wooloo;6;wooloo;1012;;wooloo;normal;60;831;832;42;40;55;40;45;48
+832;fluffy, steadfast, bulletproof;172;dubwool;13;dubwool;1013;;dubwool;normal;430;832;832;72;80;100;60;90;88
+833;strong-jaw, shell-armor, ;57;chewtle;3;chewtle;1014;;chewtle;water;85;834;847;50;64;50;38;38;44
+834;strong-jaw, shell-armor, ;170;drednaw;10;drednaw;1015;;drednaw;water, rock;1155;834;834;90;115;90;48;68;74
+835;ball-fetch, rattled;54;yamper;3;yamper;1016;;yamper;electric;135;835;894;59;45;50;40;50;26
+836;strong-jaw, competitive;172;boltund;10;boltund;1017;;boltund;electric;340;836;894;69;90;60;90;60;121
+837;steam-engine, heatproof, ;48;rolycoly;3;rolycoly;1018;;rolycoly;rock;120;837;874;30;40;50;40;50;30
+838;steam-engine, flame-body, ;144;carkol;11;carkol;1019;;carkol;rock, fire;780;839;839;80;60;90;60;70;50
+839;steam-engine, flame-body, ;255;coalossal;28;coalossal;1020;;coalossal;rock, fire;3105;839;839;110;80;120;80;90;30
+840;ripen, gluttony, bulletproof;52;applin;2;applin;1021;;applin;grass, dragon;5;840;842;40;40;80;40;40;20
+841;ripen, gluttony, hustle;170;flapple;3;flapple;1022;;flapple;grass, dragon;10;841;842;70;110;80;95;60;70
+842;ripen, gluttony, thick-fat;170;appletun;4;appletun;1023;;appletun;grass, dragon;130;842;842;110;85;80;100;80;30
+843;sand-spit, shed-skin, sand-veil;63;silicobra;22;silicobra;1024;;silicobra;ground;76;844;844;52;57;75;35;50;46
+844;sand-spit, shed-skin, sand-veil;179;sandaconda;38;sandaconda;1025;;sandaconda;ground;655;844;844;72;107;125;65;70;71
+845;gulp-missile;166;cramorant;8;cramorant;1026;;cramorant;flying, water;180;845;845;70;85;55;85;95;85
+846;swift-swim, propeller-tail;56;arrokuda;5;arrokuda;1029;;arrokuda;water;10;847;847;41;63;40;40;30;66
+847;swift-swim, propeller-tail;172;barraskewda;13;barraskewda;1030;;barraskewda;water;300;847;847;61;123;60;60;50;136
+848;rattled, static, klutz;48;toxel;4;toxel;1031;;toxel;electric, poison;110;848;849;40;38;35;54;35;40
+849;punk-rock, plus, technician;176;toxtricity-amped;16;toxtricity-amped;1032;;toxtricity;electric, poison;400;849;849;75;98;70;114;70;75
+850;flash-fire, white-smoke, flame-body;61;sizzlipede;7;sizzlipede;1034;;sizzlipede;fire, bug;10;851;851;50;65;45;50;50;45
+851;flash-fire, white-smoke, flame-body;184;centiskorch;30;centiskorch;1035;;centiskorch;fire, bug;1200;851;851;100;115;65;90;90;65
+852;limber, technician;62;clobbopus;6;clobbopus;1036;;clobbopus;fighting;40;853;891;50;68;60;50;50;32
+853;limber, technician;168;grapploct;16;grapploct;1037;;grapploct;fighting;390;853;891;80;118;90;70;80;42
+854;weak-armor, cursed-body;62;sinistea-phony, sinistea-antique;1;sinistea;1038;;sinistea;ghost;2;855;897;40;45;45;74;54;50
+855;weak-armor, cursed-body;178;polteageist-phony, polteageist-antique;2;polteageist;1039;;polteageist;ghost;4;855;897;60;65;65;134;114;70
+856;healer, anticipation, magic-bounce;53;hatenna;4;hatenna;1040;;hatenna;psychic;34;858;857;42;30;45;56;53;39
+857;healer, anticipation, magic-bounce;130;hattrem;6;hattrem;1041;;hattrem;psychic;48;858;857;57;40;65;86;73;49
+858;healer, anticipation, magic-bounce;255;hatterene;21;hatterene;1042;;hatterene;psychic, fairy;51;858;858;57;90;95;136;103;29
+859;prankster, frisk, pickpocket;53;impidimp;4;impidimp;1043;;impidimp;dark, fairy;55;861;861;45;45;30;55;40;50
+860;prankster, frisk, pickpocket;130;morgrem;8;morgrem;1044;;morgrem;dark, fairy;125;861;861;65;60;45;75;55;70
+861;prankster, frisk, pickpocket;255;grimmsnarl;15;grimmsnarl;1045;;grimmsnarl;dark, fairy;610;861;861;95;120;65;95;75;60
+862;reckless, guts, defiant;260;obstagoon;16;obstagoon;1046;;obstagoon;dark, normal;460;862;862;93;90;101;60;81;95
+863;battle-armor, tough-claws, ;154;perrserker;8;perrserker;1047;;perrserker;steel;280;863;879;70;110;100;50;60;50
+864;weak-armor, perish-body;179;cursola;10;cursola;1048;;cursola;ghost;4;864;897;60;95;50;145;130;30
+865;steadfast, scrappy;177;sirfetchd;8;sirfetchd;1049;;sirfetchd;fighting;1170;865;891;62;135;95;68;82;65
+866;tangled-feet, screen-cleaner, ;182;mr-rime;15;mr-rime;1050;;mr-rime;ice, psychic;582;866;866;80;85;75;110;100;70
+867;wandering-spirit;169;runerigus;16;runerigus;1051;;runerigus;ground, ghost;666;867;867;58;95;145;50;105;30
+868;sweet-veil, aroma-veil;54;milcery;2;milcery;1052;;milcery;fairy;3;869;888;45;40;40;50;61;34
+869;sweet-veil, aroma-veil;173;alcremie-vanilla-cream, alcremie-ruby-cream, alcremie-matcha-cream, alcremie-mint-cream, , alcremie-lemon-cream, alcremie-salted-cream, alcremie-ruby-swirl, alcremie-caramel-swirl;3;alcremie;1053;;alcremie;fairy;5;869;888;65;60;75;110;121;64
+870;battle-armor, defiant;165;falinks;30;falinks;1054;;falinks;fighting;620;870;891;65;100;100;70;60;75
+871;lightning-rod, electric-surge;152;pincurchin;3;pincurchin;1055;;pincurchin;electric;10;871;894;48;101;95;91;85;15
+872;shield-dust, ice-scales;37;snom;3;snom;1056;;snom;ice, bug;38;873;873;30;25;35;45;30;20
+873;shield-dust, ice-scales;166;frosmoth;13;frosmoth;1057;;frosmoth;ice, bug;420;873;873;70;65;60;125;90;65
+874;power-spot;165;stonjourner;25;stonjourner;1058;;stonjourner;rock;5200;874;874;100;125;135;20;20;70
+875;ice-face;165;eiscue-ice;14;eiscue-ice;1059;;eiscue;ice;890;875;896;75;80;110;65;90;50
+876;inner-focus, synchronize, ;166;indeedee-male;9;indeedee-male;1061;;indeedee;psychic, normal;280;876;876;60;65;55;105;95;95
+877;hunger-switch;153;morpeko-full-belly;3;morpeko-full-belly;1063;;morpeko;electric, dark;30;877;877;58;95;58;70;58;97
+878;sheer-force, heavy-metal;66;cufant;12;cufant;1065;;cufant;steel;1000;879;879;72;80;49;40;49;40
+879;sheer-force, heavy-metal;175;copperajah;30;copperajah;1066;;copperajah;steel;6500;879;879;122;130;69;80;69;30
+880;volt-absorb, hustle, sand-rush;177;dracozolt;18;dracozolt;1067;;dracozolt;electric, dragon;1900;880;880;90;100;90;80;70;75
+881;volt-absorb, static, slush-rush;177;arctozolt;23;arctozolt;1068;;arctozolt;electric, ice;1500;881;881;90;100;90;90;80;55
+882;water-absorb, strong-jaw, ;177;dracovish;23;dracovish;1069;;dracovish;water, dragon;2150;882;882;90;90;100;70;80;75
+883;water-absorb, ice-body, slush-rush;177;arctovish;20;arctovish;1070;;arctovish;water, ice;1750;883;883;90;90;100;80;90;55
+884;light-metal, heavy-metal, ;187;duraludon;18;duraludon;1071;;duraludon;steel, dragon;400;884;884;70;95;115;120;50;85
+885;clear-body, infiltrator, cursed-body;54;dreepy;5;dreepy;1072;;dreepy;dragon, ghost;20;887;887;28;60;30;40;30;82
+886;clear-body, infiltrator, cursed-body;144;drakloak;14;drakloak;1073;;drakloak;dragon, ghost;110;887;887;68;80;50;60;50;102
+887;clear-body, infiltrator, cursed-body;300;dragapult;30;dragapult;1074;;dragapult;dragon, ghost;500;887;887;88;120;75;100;75;142
+888;intrepid-sword;335;zacian;28;zacian;1075;;zacian;fairy;1100;888;888;92;130;115;80;115;138
+889;dauntless-shield;335;zamazenta;29;zamazenta;1077;;zamazenta;fighting;2100;889;891;92;130;115;80;115;138
+890;pressure;345;eternatus;200;eternatus;1079;;eternatus;poison, dragon;9500;890;890;140;85;95;145;95;130
+891;inner-focus;77;kubfu;6;kubfu;1081;;kubfu;fighting;120;891;891;60;90;60;53;50;72
+892;unseen-fist;275;urshifu-single-strike;19;urshifu-single-strike;1082;;urshifu;fighting, dark;1050;892;892;100;130;100;63;60;97
+893;leaf-guard;300;zarude;18;zarude;1084;;zarude;dark, grass;700;893;893;105;120;105;70;95;105
+894;transistor;290;regieleki;12;regieleki;1086;;regieleki;electric;1450;894;894;80;100;50;100;50;200
+895;dragons-maw;290;regidrago;21;regidrago;1087;;regidrago;dragon;2000;895;895;200;100;50;100;50;80
+896;chilling-neigh;290;glastrier;22;glastrier;1088;;glastrier;ice;8000;896;896;100;145;130;65;110;30
+897;grim-neigh;290;spectrier;20;spectrier;1089;;spectrier;ghost;445;897;897;100;65;60;145;80;130
+898;unnerve;250;calyrex;11;calyrex;1090;;calyrex;psychic, grass;77;898;898;100;80;80;80;80;80
