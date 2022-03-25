@@ -1,0 +1,69 @@
+
+#import packages needed for a jupyter notebook fil
+
+import numpy as np
+import pandas as pd
+import requests
+import sys
+!{sys.executable} -m pip install --upgrade pip
+!{sys.executable} -m pip install fsspec
+from io import StringIO
+
+
+#function for finding the position of the nth time a string occurs
+def find_nth(haystack, needle, n):
+    start = haystack.find(needle)
+    while start >= 0 and n > 1:
+        start = haystack.find(needle, start+len(needle))
+        n -= 1
+    return start
+
+learned_df = pd.DataFrame([])
+movesdf = pd.DataFrame([])
+
+#iterate over the number of moves in pokeapi
+for i in range(1,827): 
+    #get the url and read it into a dataframe
+    url = requests.get('https://pokeapi.co/api/v2/move/'+str(i), headers={'User-Agent': 'Mozilla/5.0'}) 
+    df = pd.read_json(StringIO(url.text), orient='columns',typ='frame', lines=True)
+    temp_df = df.set_index('id')
+    
+    #for the move information put it into movesdf
+    movesdf = pd.concat([temp_df,df.set_index('id')])
+   
+   #for the learned by information, turn it into a string that can be parsed as json text
+   temp_str = str(df['learned_by_pokemon'].iloc[0])[1:-1].replace("'",'"')
+   
+   #break if the string is empty (for struggle)
+    if (temp_str == ''): continue
+    
+    #if it's only learned by one pokemon, you don't need a forloop and itll mess with the find_nth stuff
+    if (temp_str.count('}') == 1):
+        learned = pd.DataFrame(json.loads(temp_str),index = [i-1])
+    
+    #initialize the learned dataframe and then loop through all of the times a pokemon's name shows up
+    #the index is set to be the moveid
+    else:
+        learned = pd.DataFrame(json.loads(temp_str[0:temp_str.find("},")+1]),index=[i-1])
+    
+        for j in range(2,temp_str.count("}")+1):
+            temp_dict = json.loads(temp_str[find_nth(temp_str,'{',j):find_nth(temp_str,'}',j)+1])
+            learned = pd.concat([learned,pd.DataFrame(temp_dict,index=[i-1])])
+    
+    #add the temp dataframe(learned) to the permanent one(learned_df)
+    learned_df = pd.concat([learned_df,learned['name']],axis=0)
+
+learned_df = learned_df.rename(columns={0:'name'})
+pokedex = pd.read_csv('pokedex.csv',sep=';').rename(columns={'Unnamed: 0':'pokedex_num'})
+pokedex = pokedex.set_index('pokedex_num')
+learned_df['pokedex_num'] = ''
+
+pokenames = pokedex['name'].to_list()
+
+for i in range(0,len(learned_df)):
+    if (learned_df['name'].iloc[i] not in pokenames):
+        learned_df['pokedex_num'].iloc[i] = ''
+    else:
+        learned_df['pokedex_num'].iloc[i] = pokedex[pokedex['name']==learned_df['name'].iloc[i]].index[0]
+
+learned_df.to_csv('move_learning.csv',index_label='move_id')
