@@ -1,0 +1,83 @@
+import numpy as np
+import pandas as pd
+
+#import data from json file
+pokedf = pd.read_json('pokedf.json')
+
+#pick the columns to clean
+columns = ['abilities','forms','types','species','past_types']
+
+#find length to make the loops quicker
+n = len(pokedf)
+
+#go through the columns I want to clean
+for col in columns:
+    
+    #for the whole length of the data frame
+    for i in range(0,n):
+        
+        #get the row item as a string
+        col_str = str(pokedf[col].iloc[i])
+        
+        #reinitialize the row item
+        pokedf[col].iloc[i] = ''
+        
+        #iterate over the number of times the desired information appears
+        for j in range(0,col_str.count('name')):
+            
+            #for the first iteration, start at the beginning and go the the end of the information you're looking for (a bit before the url)
+            if j == 0: 
+                pokedf[col].iloc[i] = pokedf[col].iloc[i] + col_str[col_str.find('name')+8:col_str.find('url')-4]
+            
+            #for every other iteration, add a comma to what's there and go forward about the length of a name and a url (there is a more precise way to do this, but this will work for < 40 items per row)
+            else:
+                pokedf[col].iloc[i] = pokedf[col].iloc[i] + ', ' + col_str[col_str.find('name',70*j)+8:col_str.find('url',70*j+15)-4]
+
+
+                       
+#initialize the ability id
+pokedf['ability_id'] = ''
+
+#iterate over the dataframe twice (i know it's not super efficient, but it's a small dataframe)
+for i in range(0,n):
+    for j in range(0,n):
+        
+        #if the abilities are the same, set the ability_id = pokedex number.  Otherwise, keep going
+        if pokedf['abilities'].iloc[j] == pokedf['abilities'].iloc[i]: 
+            pokedf['ability_id'].iloc[j] = i+1
+
+#do the same thing for types
+pokedf['type_id'] = ''
+
+for i in range(0,n):
+    for j in range(0,n):
+        if pokedf['types'].iloc[j] == pokedf['types'].iloc[i]: 
+            pokedf['type_id'].iloc[j] = i+1         
+
+#we're going to get individual battle statistics from the stats column without any of the urls
+columns = ['hp','attack','defense','special-attack','special-defense','speed']
+
+#initialize the columns
+for col in columns:
+    pokedf[col] = ''
+
+#iterate over the length of the dataframe
+for i in range(0,n):
+
+    #make a string of the stats
+    stat_str = str(pokedf['stats'].iloc[i])
+    
+    #for every individual stat
+    for col in columns:
+        
+        #find where the stat starts
+        stat_pos = stat_str.find(col)
+        
+        #go 36 eariler to 33 earier and replace any : with an empty string.  Some values were 2 digits with a colon and some were 3 digits
+        pokedf[col].iloc[i] = stat_str[stat_pos-36:stat_pos-33].replace(': ','')
+
+#cast the columns as int types
+pokedf = pokedf.astype({'hp':int,'attack':int,'defense':int,'special-attack':int,'special-defense':int,'speed':int})        
+
+#print the dataframe to check that things worked how they were meant to
+print(pokedf)
