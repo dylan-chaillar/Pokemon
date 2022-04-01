@@ -1,0 +1,85 @@
+-- pokedex information was uploaded from a csv made in the python file
+-- ability learning, abilities, move learning, and moves were also uploaded as a flat file and any ability_id's or pokedex numbers were set as primary keys
+
+SELECT id,
+	attack,
+	defense,
+	hp,
+	sp_attack,
+	sp_defense,
+	speed
+INTO battlestats
+FROM pokedex
+
+ALTER TABLE battlestats
+ADD PRIMARY KEY (id);
+
+SELECT id,
+	poke_order,
+	forms,
+	past_types,
+	species
+INTO characteristics
+FROM pokedex
+
+ALTER TABLE characteristics
+ADD PRIMARY KEY (id)
+
+SELECT id,
+	base_experience,
+	height,
+	weight
+INTO pokestats
+FROM pokedex
+
+ALTER TABLE pokestats
+ADD PRIMARY KEY (id)
+
+SELECT types,
+  type_id
+INTO types
+FROM pokedex
+
+ALTER TABLE types
+ADD PRIMARY KEY (type_id)
+
+SELECT id,
+	name,
+	type_id,
+INTO characteristics
+FROM pokedex
+
+ALTER TABLE characteristics
+ADD PRIMARY KEY (id)
+
+ALTER TABLE move_learning
+	ADD CONSTRAINT FK_pokemon_moves FOREIGN KEY (pokedex_num)
+		REFERENCES pokeid (id)
+
+ALTER TABLE move_learning
+	ADD CONSTRAINT FK_move_learning FOREIGN KEY (move_id)
+		REFERENCES moves (move_id)
+
+ALTER TABLE ability_learning
+	ADD CONSTRAINT FK_pokemon_abilities FOREIGN KEY (poke_id)
+		REFERENCES pokeid (id)
+
+ALTER TABLE ability_learning
+	ADD CONSTRAINT FK_ability_learning FOREIGN KEY (ability_id)
+		REFERENCES abilities (ability_id)
+
+ALTER TABLE battlestats
+	ADD CONSTRAINT FK_poke_battle FOREIGN KEY (id)
+		REFERENCES pokeid (id)
+
+ALTER TABLE characteristics
+	ADD CONSTRAINT FK_poke_char FOREIGN KEY (id)
+		REFERENCES pokeid (id)
+
+ALTER TABLE types
+	ADD CONSTRAINT FK_poke_type FOREIGN KEY (type_id)
+		REFERENCES pokeid (type_id)
+
+ALTER TABLE pokeestats
+	ADD CONSTRAINT FK_poke_pokestats FOREIGN KEY (id)
+		REFERENCES pokeid (id)
